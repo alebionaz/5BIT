@@ -1,0 +1,234 @@
+Casa Discografica
+/media/picchio/dati/picchio/mondo/scuola/2018-2019/5bit/documenti/casa_discografica.ger
+Picchiottino Roberto per 5BIT AS 2018-2019
+10
+21
+0 0 1324 968
+9
+canzone
+202
+302
+2
+id_canzone int
+nome varchar(63)
+1
+id_canzone
+2
+relation9
+relation12
+esibizione
+637
+328
+6
+id_esibizione int
+data date
+durata time
+luogo varchar(63)
+annotazioni text
+info_traccia text
+1
+id_esibizione
+4
+relation9
+relation15
+contiene
+relation19
+artista
+642
+-5
+3
+id_artista int
+nome varchar(63)
+cognome varchar(63)
+1
+id_artista
+2
+relation13
+relation14
+produzioni
+232
+16
+1
+id_produzioni int
+1
+id_produzioni
+3
+relation12
+relation13
+relation17
+interpretazioni
+956
+126
+1
+id_interpretazione int
+1
+id_interpretazione
+3
+relation14
+relation15
+relation16
+ruoli
+433
+138
+3
+id_ruolo int
+nome varchar(63)
+tipo_ruolo int
+1
+id_ruolo
+2
+relation16
+relation17
+dischi
+1049.0
+342.0
+2
+id_disco int
+nome varchar(63)
+1
+id_disco
+2
+contiene
+di_co
+genere
+656
+528
+2
+id_genere int
+nome varchar(64)
+1
+id_genere
+1
+relation19
+cofanetti
+1333
+284
+2
+id_cofanetto int
+nome varchar(63)
+1
+id_cofanetto
+1
+di_co
+10
+relation9
+0
+425
+360
+0
+2
+canzone
+1
+1
+esibizione
+1
+N
+relation12
+0
+10
+65
+0
+2
+produzioni
+1
+N
+canzone
+1
+1
+relation13
+0
+438
+26
+0
+2
+produzioni
+1
+N
+artista
+1
+1
+relation14
+0
+846
+9
+0
+2
+artista
+1
+1
+interpretazioni
+1
+N
+relation15
+0
+869
+262
+0
+2
+esibizione
+1
+1
+interpretazioni
+1
+N
+relation16
+0
+665
+148
+0
+2
+ruoli
+1
+1
+interpretazioni
+1
+N
+relation17
+0
+411
+100
+0
+2
+ruoli
+1
+1
+produzioni
+1
+N
+contiene
+0
+858
+363
+1
+ordine int
+2
+esibizione
+1
+N
+dischi
+1
+N
+relation19
+0
+643
+440
+0
+2
+esibizione
+1
+N
+genere
+1
+1
+di_co
+0
+1262
+376
+0
+2
+dischi
+1
+N
+cofanetti
+1
+N
