@@ -1,12 +1,12 @@
 ﻿
-Casa discografica
+Materiale per la classe 5bit AS 2018-2019 (I. Manzetti - Aosta)
 =================
 # Installazione
 ```
-$git clone https://github.com/simonemastella/5BIT.git
+$ git clone https://github.com/simonemastella/5BIT.git
 ```
 # Aggiornamento
-.... to do helppppp
+Si chiede algi alunni di aggiungere informazioni sui lavori svolti e sugli incarichi ricevuti.
 
 # Docente: Roberto Picchiottino
 Sono il docente di riferimento.
