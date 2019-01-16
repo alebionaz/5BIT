@@ -15,8 +15,9 @@ Sono il docente di riferimento.
 # Alunno 3
 
 # Alunno 4
-
+Cecilia Corbara
 # Alunno 5
+Ciao sono Edoardo Di Vita
 
 # Alunno 6
 
@@ -33,7 +34,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 12
 
 # Alunno 13
-
+Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
 # Alunno 14
 
 # Alunno 15
@@ -45,7 +46,7 @@ Ciao sono _Scarpante_
 
 # Alunno 18
 
-# Alunno 19
+# Alunno 19 Taut Denisa
 
 # Alunno 20
 
