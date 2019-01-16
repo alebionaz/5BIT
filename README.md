@@ -15,17 +15,18 @@ Sono il docente di riferimento.
 # Alunno 3
 
 # Alunno 4
-
+Cecilia Corbara
 # Alunno 5
+Ciao sono Edoardo Di Vita
 
 # Alunno 6
 
 # Alunno 7
-
+Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
 
 # Alunno 9
-
+Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
 
 # Alunno 11
@@ -45,6 +46,10 @@ Sono il docente di riferimento.
 # Alunno 18
 Sposato Fabio è un figo
 # Alunno 19
+=======
+
+# Alunno 19 Taut Denisa
+>>>>>>> a5ebc39ef5ccc235222e90f76c3fbde302a6b984
 
 # Alunno 20
 
