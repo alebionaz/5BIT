@@ -20,7 +20,7 @@ Cecilia Corbara
 Ciao sono Edoardo Di Vita
 
 # Alunno 6 
-Ciao, sono sicci il bello
+Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
@@ -34,7 +34,7 @@ Ciao, mi chiamo *Hermann Hausherr*
 # Alunno 12
 
 # Alunno 13
-Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
+Christopher
 # Alunno 14
 
 # Alunno 15
@@ -42,10 +42,12 @@ Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
 # Alunno 16
 
 # Alunno 17
+Ciao sono _Scarpante_
 
 # Alunno 18
 
-# Alunno 19 Taut Denisa
+# Alunno 19 
+Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 
 # Alunno 20
 
