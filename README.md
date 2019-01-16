@@ -27,7 +27,7 @@ Sono il docente di riferimento.
 # Alunno 9
 
 # Alunno 10
-
+Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
 # Alunno 11
 
 # Alunno 12
