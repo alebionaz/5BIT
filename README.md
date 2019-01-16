@@ -21,11 +21,11 @@ Cecilia Corbara
 Ciao sono Edoardo Di Vita
 
 # Alunno 6 
-Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo)
+Ciao, sono **Sicci** il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-Sono Guerini, busy for you, fireball, parappaparapa
+Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello).
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
