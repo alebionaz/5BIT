@@ -1,7 +1,8 @@
 ﻿
 Materiale per la classe 5bit AS 2018-2019 (I. Manzetti - Aosta)
 =================
-# Installazione
+# Clonare il repository
+Da fare solo una volta.
 ```
 $ git clone https://github.com/simonemastella/5BIT.git
 ```
