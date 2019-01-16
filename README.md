@@ -5,13 +5,14 @@ Casa discografica
 ```
 $git clone https://github.com/simonemastella/5BIT.git
 ```
-# aggiornamento
+# Aggiornamento
 .... to do helppppp
+
 # Docente: Roberto Picchiottino
 Sono il docente di riferimento.
 
-## alcuni consigli
-Leggere e produrre documentazione, l'alunno (gli alunni) che curano la documentazione avranno cura di informare come procedere nel migiore dei miodi. Io inizio con md. Attendo fiducioso di sapere quali strategie individuate per documentare il progetto. :boom:
+## Alcuni consigli
+Leggere e produrre documentazione, l'alunno (gli alunni) che curano la documentazione avranno cura di informare come procedere nel migiore dei modi. Io inizio con md. Attendo fiducioso di sapere quali strategie individuate per documentare il progetto. :boom:
 
 ### Copia ...
 Strano! Ti consiglio di copiare! Non è una svista!
