@@ -1,5 +1,7 @@
-Sito internet per documenti
+Sito internet per documentazione e manuali.
 ===========================
+# obiettivo
+Creare i manuali da utilizzare durante le prove scritte di informatica e non solo ...
 # Directory
 Ogni directory contiene file con scopi e funzionalità differenti
 
