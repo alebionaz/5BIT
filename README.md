@@ -19,12 +19,12 @@ Cecilia Corbara
 # Alunno 5
 Ciao sono Edoardo Di Vita
 
-# Alunno 6
-
+# Alunno 6 
+Ciao, sono sicci il bello
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-
+Sono Guerini, busy for you, fireball, parappaparapa
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
