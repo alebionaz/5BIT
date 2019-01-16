@@ -38,6 +38,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 14
 
 # Alunno 15
+Ciao sono Edith Piffari
 
 # Alunno 16
 
