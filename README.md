@@ -1,3 +1,4 @@
+
 Casa discografica
 =================
 # Installazione
@@ -41,7 +42,7 @@ Christopher
 Ciao sono Edith Piffari
 
 # Alunno 16
-
+sono raffa
 # Alunno 17
 Ciao sono _Scarpante_
 
