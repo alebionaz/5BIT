@@ -34,7 +34,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 12
 
 # Alunno 13
-Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
+Christopher
 # Alunno 14
 
 # Alunno 15
