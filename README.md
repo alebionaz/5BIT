@@ -41,6 +41,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 16
 
 # Alunno 17
+Ciao sono _Scarpante_
 
 # Alunno 18
 
