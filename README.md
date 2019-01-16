@@ -14,7 +14,7 @@ Sono il docente di riferimento.
 # Alunno 2
 
 # Alunno 3
-sono sid
+
 # Alunno 4
 Cecilia Corbara
 # Alunno 5
