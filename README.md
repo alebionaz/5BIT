@@ -25,7 +25,7 @@ Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-Sono Guerini, busy for you, fireball, parappaparapa
+Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello)
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
@@ -39,10 +39,10 @@ Christopher
 # Alunno 14
 Ciao, sono Fabio Petrocca detto **_Fabenz_** 
 # Alunno 15
-Ciao sono Edith Piffari
+Ciao sono Edith Piffari, detta Leda
 
 # Alunno 16
-sono raffa
+sono raffa, eeee gioco calcio
 # Alunno 17
 Ciao sono _Scarpante_
 
