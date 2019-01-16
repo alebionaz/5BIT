@@ -17,7 +17,9 @@ Leggere e produrre documentazione, l'alunno (gli alunni) che curano la documenta
 ### Copia ...
 Strano! Ti consiglio di copiare! Non è una svista!
 
-Sì, quando trovi una soluzione che ti piace, cerca di capire come è stata fatta e copia il codice che la mette in pratica.
+Quando trovi una soluzione che ti piace, cerca di capire come è stata implememntata e utilizza il codice che la mette in pratica.
+
+Fai molta attenzione alla licenza d'uso: deve essere compatibile con quella che utilizzi.
 
 ### Aggiorna il repository
 Alcuni comandi utili ...
