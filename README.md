@@ -15,17 +15,18 @@ Sono il docente di riferimento.
 # Alunno 3
 
 # Alunno 4
-
+Cecilia Corbara
 # Alunno 5
+Ciao sono Edoardo Di Vita
 
-# Alunno 6
-
+# Alunno 6 
+Ciao, sono sicci il bello
 # Alunno 7
-
+Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-
+Sono Guerini, busy for you, fireball, parappaparapa
 # Alunno 9
-
+Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
 Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
 # Alunno 11
@@ -33,7 +34,7 @@ Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
 # Alunno 12
 
 # Alunno 13
-
+Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
 # Alunno 14
 
 # Alunno 15
@@ -44,7 +45,7 @@ Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
 
 # Alunno 18
 
-# Alunno 19
+# Alunno 19 Taut Denisa
 
 # Alunno 20
 
