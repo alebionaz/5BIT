@@ -1,3 +1,4 @@
+
 Casa discografica
 =================
 # Installazione
@@ -39,7 +40,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 15
 
 # Alunno 16
-
+sono raffa
 # Alunno 17
 
 # Alunno 18
