@@ -21,11 +21,11 @@ Cecilia Corbara
 # Alunno 6
 
 # Alunno 7
-
+Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
 
 # Alunno 9
-
+Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
 
 # Alunno 11
