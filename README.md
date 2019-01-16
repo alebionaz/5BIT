@@ -24,17 +24,17 @@ Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-
+Sono Guerini, busy for you, fireball, parappaparapa
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
-
+Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
 # Alunno 11
 
 # Alunno 12
 
 # Alunno 13
-Christopher Oggi Bevo Rossa Aranciata Davanti IL Nuovo Nostromo
+Christopher
 # Alunno 14
 
 # Alunno 15
