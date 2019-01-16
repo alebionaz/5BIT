@@ -2,7 +2,7 @@ Casa discografica
 =================
 # Installazione
 ```
-$git clone https://github.com/simonemastella/casa_discografica.git
+$git clone https://github.com/simonemastella/5BIT.git
 
 # aggiornamento
 .... to do helppppp
