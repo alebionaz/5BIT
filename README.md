@@ -44,7 +44,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 
 # Alunno 18
 
-# Alunno 19
+# Alunno 19 Taut Denisa
 
 # Alunno 20
 
