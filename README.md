@@ -20,7 +20,7 @@ Cecilia Corbara
 Ciao sono Edoardo Di Vita
 
 # Alunno 6 
-Ciao, sono sicci il bello
+Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
@@ -28,24 +28,27 @@ Sono Guerini, busy for you, fireball, parappaparapa
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
-Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
+Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
-
+Ciao sono **Gabriele Marchesano**
 # Alunno 12
-
+Ciao sono mastella
 # Alunno 13
 Christopher
 # Alunno 14
 
 # Alunno 15
+Ciao sono Edith Piffari
 
 # Alunno 16
 
 # Alunno 17
+Ciao sono _Scarpante_
 
 # Alunno 18
-
+Sposato Fabio è un figo
 # Alunno 19 Taut Denisa
+Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 
 # Alunno 20
 
