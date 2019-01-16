@@ -42,6 +42,7 @@ Christopher
 # Alunno 16
 
 # Alunno 17
+Ciao sono _Scarpante_
 
 # Alunno 18
 Sposato Fabio è un figo
