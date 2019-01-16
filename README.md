@@ -1,4 +1,4 @@
-
+﻿
 Casa discografica
 =================
 # Installazione
@@ -36,7 +36,7 @@ Ciao, sono mastella
 # Alunno 13
 Christopher
 # Alunno 14
-Ciao, sono Fabio Petrocca detto **_Fabenz_** 
+Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 # Alunno 15
 Ciao sono Edith Piffari, detta Leda
 
