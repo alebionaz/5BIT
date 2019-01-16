@@ -28,7 +28,7 @@ Sono Guerini, busy for you, fireball, parappaparapa
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
-Ciao, mi chiamo Hermann Hausherr, ho 19 anni e abito ad Aosta
+Ciao, mi chiamo *Hermann Hausherr*
 # Alunno 11
 Ciao sono **Gabriele Marchesano**
 # Alunno 12
