@@ -20,7 +20,7 @@ Cecilia Corbara
 Ciao sono Edoardo Di Vita
 
 # Alunno 6 
-Ciao, sono sicci il bello
+Ciao, sono sicci il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
