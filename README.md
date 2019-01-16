@@ -7,8 +7,31 @@ $git clone https://github.com/simonemastella/5BIT.git
 ```
 # aggiornamento
 .... to do helppppp
-# Picchio
+# Docente: Roberto Picchiottino
 Sono il docente di riferimento.
+
+## alcuni consigli
+Leggere e produrre documentazione, l'alunno (gli alunni) che curano la documentazione avranno cura di informare come procedere nel migiore dei miodi. Io inizio con md. Attendo fiducioso di sapere quali strategie individuate per documentare il progetto. :boom:
+
+### Copia ...
+Strano! Ti consiglio di copiare! Non è una svista!
+
+Sì, quando trovi una soluzione che ti piace, cerca di capire come è stata fatta e copia il codice che la mette in pratica.
+
+### Aggiorna il repository
+Alcuni comandi utili ...
+```
+git add .
+git commit -m "Messaggio con indicazioni del commit"
+git status
+git pull
+git push origin master
+```
+
+### URL utili
+* [Guida a MarkDown](https://guides.github.com/features/mastering-markdown/)
+* [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+
 # Alunno 1
 
 # Alunno 2
