@@ -19,7 +19,6 @@ Sono il docente di riferimento.
 Cecilia Corbara
 # Alunno 5
 Ciao sono Edoardo Di Vita
-
 # Alunno 6 
 Ciao, sono **Sicci** il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
@@ -33,7 +32,7 @@ Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**
 # Alunno 12
-Ciao sono mastella
+Ciao, sono mastella
 # Alunno 13
 Christopher
 # Alunno 14
