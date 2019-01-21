@@ -92,5 +92,19 @@ Mi devo assicurare che i compagni che hanno da creare il database creino e pubbl
 LGi alunni in questo reparto devono: immaginare il sito internet, assicurarmi che ci siano gli elementi di base, decidere quali framework utilizzare. Fare qualche esempio di pagina e collaborare con chi crea le funzioni php per il sito al fine di avere un lavoro omogeneo.
 ## Php database
 I compagni che hanno questo compito devono lavorare al meglio in quanto senza il loro apporto non possiamo collegarci al database.
+## GIT Master
+Da lui/loro ci aspettiamo grandi cose: gestione del git, come creare il file .gitignore al fine di non divulgare info personali, documentazione su come migliorare la gestione del git.
+## Documentaizone
+L'idea consiste nel creare la documentazione in automaticao, i compagni che hanno questo compito devono dirci come inserire i commenti nei file al fine di avere una gestione dei documenti automatizzata. Pare stiano lavorando con [DoxyGen](http://doxygen.nl/) che si installa anche su debian in modo semplice. Spero proprio ci dicano quali sono i comandi migliori da dare e come creare il file di configurazione per la generazione della documentazione.
+## Grafico
+Da loro devo avere i file del logo, la spiegazione sui colori scelti e i vari formati per i differenti scopi. Mi aspetto anche un modello di carta intestata e, soprattutto, le informazioni per reperire questi documenti.
+## DB Libreoffice
+Si devono collegare al database con libreoffice e creare le maschere per inserire i dati e per vedere i risultati. Il prodotto finale sarà un sito internet ma potrebbe risultare utile avere un accesso con libreoffice.
+## DB, Dati e php
+Come utilizzage AJAX per migliorare la fruibilità del sito.
+## DB Form
+Le form per inserimento dati sono piuttosto complicate, questi alunni dovranno iniziare a lavorare su questo aspetto. Da notare che le operazioni da farsi sui dati, oltre alla select, sono INSERT, UPDATE e DELETE.
+## GANTT e coordinamento
+Questo ruolo dovrebbe essere simile al mio. Deve, come me, essere a conoscenza di chi fa cosa e deve controllare che lo faccia e relazioni.
 ## ....
 E via dicendo .... state attenti che vi controllo.
