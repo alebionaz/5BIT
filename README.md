@@ -37,17 +37,17 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-
+Adamo Elia lavoro per il n° 1
 # Alunno 2
 
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
-Cecilia Corbara
+Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita
+Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono **Sicci** il bello (a me piace scrivere storie | ma inventi? | no.da solo)
+Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
@@ -57,23 +57,21 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
-Ciao sono **Gabriele Marchesano**
+Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
-Ciao, sono mastella
+Ciao, sono mastella, lavoro: 6 git master
 # Alunno 13
 Christopher
 # Alunno 14
 Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 # Alunno 15
-Ciao sono Edith Piffari, detta Leda
-
+Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 sono raffa, eeee gioco calcio
 # Alunno 17
 Ciao sono _Scarpante_
-
 # Alunno 18
-Sposato Fabio è un figo
+Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 
