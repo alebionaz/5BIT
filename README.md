@@ -110,10 +110,10 @@ Da loro devo avere i file del logo, la spiegazione sui colori scelti e i vari fo
 Si devono collegare al database con libreoffice e creare le maschere per inserire i dati e per vedere i risultati. Il prodotto finale sarà un sito internet ma potrebbe risultare utile avere un accesso con libreoffice.
 
 ## DB, Dati e php
-Come utilizzage AJAX per migliorare la fruibilità del sito.
+Come utilizzare AJAX per migliorare la fruibilità del sito.
 
 ## DB Form
-Le form per inserimento dati sono piuttosto complicate, questi alunni dovranno iniziare a lavorare su questo aspetto. Da notare che le operazioni da farsi sui dati, oltre alla select, sono INSERT, UPDATE e DELETE.
+Le form per inserimento dati sono piuttosto complicate, questi alunni dovranno iniziare a lavorare su questo aspetto. Da notare che le operazioni da farsi sui dati, oltre alla SELECT, sono INSERT, UPDATE e DELETE.
 
 ## GANTT e coordinamento
 Questo ruolo dovrebbe essere simile al mio. Deve, come me, essere a conoscenza di chi fa cosa e deve controllare che lo faccia e relazioni.
