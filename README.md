@@ -71,7 +71,7 @@ sono raffa, eeee gioco calcio
 # Alunno 17
 Ciao sono _Scarpante_
 # Alunno 18
-Sposato Fabio è un figo
+Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 
