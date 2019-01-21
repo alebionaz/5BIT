@@ -47,13 +47,13 @@ Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+Ciao, sono Fabrizi e lavoro per la documentazione (n°79) & **Forza Roma**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
 Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello).
 # Alunno 9
-Ciao sono _Gyppaz_ approvo il commento di Gallo
+Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
@@ -69,7 +69,7 @@ Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 sono raffa, eeee gioco calcio
 # Alunno 17
-Ciao sono _Scarpante_
+Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
@@ -78,7 +78,7 @@ Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 # Alunno 20
 
 # Alunno 21
-ciao sono Jaco
+ciao sono Jacopo, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a _Scarpante_
 
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
