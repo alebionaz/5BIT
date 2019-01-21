@@ -41,9 +41,9 @@ Adamo Elia lavoro per il n° 1
 # Alunno 2
 
 # Alunno 3
-
+Ciao sono Bionaz.
 # Alunno 4
-Cecilia Corbara
+Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
@@ -53,11 +53,11 @@ Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
 Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello).
 # Alunno 9
-Ciao sono _Gyppaz_ approvo il commento di Gallo
+Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
-Ciao sono **Gabriele Marchesano**
+Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
 Ciao, sono mastella, lavoro: 6 git master
 # Alunno 13
