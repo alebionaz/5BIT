@@ -37,7 +37,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il n° 1
+Adamo Elia lavoro per il n° 1 Forza Roma
 # Alunno 2
 
 # Alunno 3
