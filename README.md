@@ -47,7 +47,7 @@ Cecilia Corbara
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+Ciao, sono Fabrizi e lavoro per la documentazione (n°79) & **Forza Roma**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
