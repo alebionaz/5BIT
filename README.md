@@ -39,13 +39,11 @@ Christopher
 # Alunno 14
 Ciao, sono Fabio Petrocca detto **_Fabenz_** 
 # Alunno 15
-Ciao sono Edith Piffari
-
+Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 sono raffa
 # Alunno 17
 Ciao sono _Scarpante_
-
 # Alunno 18
 Sposato Fabio è un figo
 # Alunno 19 Taut Denisa
