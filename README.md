@@ -69,7 +69,7 @@ Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 sono raffa, eeee gioco calcio
 # Alunno 17
-Ciao sono _Scarpante_
+Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
@@ -78,5 +78,5 @@ Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 # Alunno 20
 
 # Alunno 21
-ciao sono Jaco
+ciao sono Jacopo, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a _Scarpante_
 
