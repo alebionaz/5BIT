@@ -59,7 +59,7 @@ Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**
 # Alunno 12
-Ciao, sono mastella
+Ciao, sono mastella, lavoro: 6 git master
 # Alunno 13
 Christopher
 # Alunno 14
