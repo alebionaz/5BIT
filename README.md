@@ -45,7 +45,7 @@ git push origin master
 # Alunno 4
 Cecilia Corbara
 # Alunno 5
-Ciao sono Edoardo Di Vita
+Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono **Sicci** il bello (a me piace scrivere storie | ma inventi? | no.da solo)
 # Alunno 7
