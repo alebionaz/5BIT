@@ -45,7 +45,7 @@ Adamo Elia (Forza Roma)
 # Alunno 4
 Cecilia Corbara
 # Alunno 5
-Ciao sono Edoardo Di Vita
+Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono **Sicci** il bello
 # Alunno 7
@@ -59,7 +59,7 @@ Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**
 # Alunno 12
-Ciao, sono mastella
+Ciao, sono mastella, lavoro: 6 git master
 # Alunno 13
 Christopher
 # Alunno 14
