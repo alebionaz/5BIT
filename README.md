@@ -85,7 +85,7 @@ Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e pro
 Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compagni.
 
 ## DB Admin: mariadb.
-Devo controllare che diano ai compagni un nome host da inserire in /etc/hosts e i dati per accedere al db sia in modallità ristretta che in modalità amministratore.
+Devo controllare che diano ai compagni un nome host da inserire in /etc/hosts e i dati per accedere al db sia in modalità ristretta che in modalità amministratore.
 Dovrà anche documentare e spiegare come va configurato mariadb per accettare connessioni da rete diversa da localhost.
 
 ## DBA Table
@@ -99,17 +99,24 @@ I compagni che hanno questo compito devono lavorare al meglio in quanto senza il
 
 ## GIT Master
 Da lui/loro ci aspettiamo grandi cose: gestione del git, come creare il file .gitignore al fine di non divulgare info personali, documentazione su come migliorare la gestione del git.
+
 ## Documentazione
-L'idea consiste nel creare la documentazione in automaticao, i compagni che hanno questo compito devono dirci come inserire i commenti nei file al fine di avere una gestione dei documenti automatizzata. Pare stiano lavorando con [DoxyGen](http://doxygen.nl/) che si installa anche su debian in modo semplice. Spero proprio ci dicano quali sono i comandi migliori da dare e come creare il file di configurazione per la generazione della documentazione.
+L'idea consiste nel creare la documentazione in automatico, i compagni che hanno questo compito devono dirci come inserire i commenti nei file al fine di avere una gestione dei documenti automatizzata. Pare stiano lavorando con [DoxyGen](http://doxygen.nl/) che si installa anche su debian in modo semplice. Spero proprio ci dicano quali sono i comandi migliori da dare e come creare il file di configurazione per la generazione della documentazione.
+
 ## Grafico
 Da loro devo avere i file del logo, la spiegazione sui colori scelti e i vari formati per i differenti scopi. Mi aspetto anche un modello di carta intestata e, soprattutto, le informazioni per reperire questi documenti.
+
 ## DB Libreoffice
 Si devono collegare al database con libreoffice e creare le maschere per inserire i dati e per vedere i risultati. Il prodotto finale sarà un sito internet ma potrebbe risultare utile avere un accesso con libreoffice.
+
 ## DB, Dati e php
 Come utilizzage AJAX per migliorare la fruibilità del sito.
+
 ## DB Form
 Le form per inserimento dati sono piuttosto complicate, questi alunni dovranno iniziare a lavorare su questo aspetto. Da notare che le operazioni da farsi sui dati, oltre alla select, sono INSERT, UPDATE e DELETE.
+
 ## GANTT e coordinamento
 Questo ruolo dovrebbe essere simile al mio. Deve, come me, essere a conoscenza di chi fa cosa e deve controllare che lo faccia e relazioni.
+
 ## ....
 E via dicendo .... state attenti che vi controllo.
