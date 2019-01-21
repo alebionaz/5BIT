@@ -37,7 +37,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il n° 1
+Adamo Elia lavoro per il n° 1 Forza Roma
 # Alunno 2
 
 # Alunno 3
@@ -47,7 +47,7 @@ Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+Ciao, sono Fabrizi e lavoro per la documentazione (n°79) & **Forza Roma**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
@@ -69,7 +69,7 @@ Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 # Alunno 17
-Ciao sono _Scarpante_
+Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
@@ -78,5 +78,19 @@ Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 # Alunno 20
 
 # Alunno 21
-ciao sono Jaco
+ciao sono Jacopo, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a _Scarpante_
 
+# Alunno 22 (Il secchione)
+Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
+Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compagni.
+## DB Admin: mariadb.
+Devo controllare che diano ai compagni un nome host da inserire in /etc/hosts e i dati par accedere al db sia in modallità ristretta che in modalità amministratore.
+Dovrà anche documentare e spiegare come va configurato mariadb per accettare connessioni da rete diversa da localhost.
+## DBA Table
+Mi devo assicurare che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Si parte dal [file ferret](./manuali/documenti.ger) che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
+## Web master
+LGi alunni in questo reparto devono: immaginare il sito internet, assicurarmi che ci siano gli elementi di base, decidere quali framework utilizzare. Fare qualche esempio di pagina e collaborare con chi crea le funzioni php per il sito al fine di avere un lavoro omogeneo.
+## Php database
+I compagni che hanno questo compito devono lavorare al meglio in quanto senza il loro apporto non possiamo collegarci al database.
+## ....
+E via dicendo .... state attenti che vi controllo.
