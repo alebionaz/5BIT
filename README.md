@@ -37,7 +37,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il n° 1
+Adamo Elia lavoro per il database (n°1)
 # Alunno 2
 
 # Alunno 3
@@ -67,7 +67,7 @@ Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 # Alunno 15
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
-sono raffa, eeee gioco calcio
+Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 # Alunno 17
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
