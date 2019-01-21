@@ -87,7 +87,7 @@ Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compa
 Devo controllare che diano ai compagni un nome host da inserire in /etc/hosts e i dati par accedere al db sia in modallità ristretta che in modalità amministratore.
 Dovrà anche documentare e spiegare come va configurato mariadb per accettare connessioni da rete diversa da localhost.
 ## DBA Table
-Mi devo assicurare che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Si parte dal file ferret che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
+Mi devo assicurare che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Si parte dal [file ferret](./manuali/documenti.ger) che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
 ## Web master
 LGi alunni in questo reparto devono: immaginare il sito internet, assicurarmi che ci siano gli elementi di base, decidere quali framework utilizzare. Fare qualche esempio di pagina e collaborare con chi crea le funzioni php per il sito al fine di avere un lavoro omogeneo.
 ## Php database
