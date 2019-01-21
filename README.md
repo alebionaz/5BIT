@@ -37,7 +37,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-
+Adamo Elia lavoro per il n° 1
 # Alunno 2
 
 # Alunno 3
@@ -47,7 +47,7 @@ Cecilia Corbara
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono **Sicci** il bello (a me piace scrivere storie | ma inventi? | no.da solo)
+Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
