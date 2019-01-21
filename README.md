@@ -65,7 +65,7 @@ Christopher
 # Alunno 14
 Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 # Alunno 15
-Ciao sono Edith Piffari, detta Leda
+Ciao sono Edith Piffari
 
 # Alunno 16
 sono raffa, eeee gioco calcio
