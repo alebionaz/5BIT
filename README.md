@@ -51,7 +51,7 @@ Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello).
+Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
