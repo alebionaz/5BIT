@@ -37,9 +37,9 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database (n°1)
+Adamo Elia lavoro per il database (n°1) **VIVA WINDOWS**
 # Alunno 2
-Prova
+Prova **USO VISUAL STUDIO**
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -48,9 +48,11 @@ Cecilia Corbara, 11 DB e form
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+#**FORZA ROMA**
+##**LAZIO MERDA**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
-# Alunno 8, Guerini Nicolò
+# Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
 connettere il Db a libreofffice. Nella prima parte del compito era 
