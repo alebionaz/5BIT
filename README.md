@@ -59,7 +59,12 @@ Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
-Ciao, sono mastella, lavoro: 6 git master
+Ciao, sono l'alunno **Simone Mastella**.
+Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
+[Come inizializare una repository](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
+[Quali comandi usare per un uso ordinario](https://gist.github.com/simonemastella/90364ec267d65a5328bd97c23aee1864)
+[Come creare un .gitignore](https://gist.github.com/simonemastella/e69cd0a0d9fe151e52c0fc53ac4ad3ea)
+[Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
 # Alunno 13
 Christopher
 # Alunno 14
