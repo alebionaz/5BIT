@@ -51,7 +51,7 @@ Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
 # Alunno 8
-<<<<<<< HEAD
+Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
 connettere il Db a libreofffice. Nella prima parte del compito era 
 richiesto di creare un collegamento al database. Per creare il 
@@ -64,10 +64,6 @@ database, ho fatto il collegamento con libreoffice base. È stato
 necessario eseguire tutti i passaggi su base per riuscire ad avere una 
 connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
 ho fatto la parte grafica base del database
-=======
-Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
-
->>>>>>> f98ef1bb31a30fe4427ee1ccaa6398fc379caec8
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
