@@ -51,7 +51,18 @@ Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
-Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
+Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
+connettere il Db a libreofffice. Nella prima parte del compito era 
+richiesto di creare un collegamento al database. Per creare il 
+collegamento con libreoffice base era necessario avere un database. Dopo 
+aver creato su mariaDB il database chiamato “discografia” con annessa 
+password *************, ho creato le tabelle con il codice proposto 
+dall’esercizio su ferret dato dal professore.
+Una volta controllato il procedimento per la giusta creazione del 
+database, ho fatto il collegamento con libreoffice base. È stato 
+necessario eseguire tutti i passaggi su base per riuscire ad avere una 
+connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
+ho fatto la parte grafica base del database
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
