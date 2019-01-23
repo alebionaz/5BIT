@@ -98,6 +98,9 @@ Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 ## Casa discografica 
 Avevo creato il database e due utenti con permessi diversi. Ho cambiato indirizzo ip nel file 50-server.cnf all'interno della directory /etc/mysql/mariadb.conf.d in modo che qualcuno possa accedere al database da remoto.
+## database documentazione
+ho creato il database il database "documentazione", ho creato 2 utenti uno 'admin' e l'altro 'user'. I due account hanno una password diversa. Admin ha i permessi per modificare il database e user può solo vedere il database. 
+
  
 
 
