@@ -4,3 +4,7 @@
 */
 $user = "";
 $pass = "";
+$dbhost = "";
+
+
+// fine file.

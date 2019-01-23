@@ -37,9 +37,9 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database (n°1)
+Adamo Elia lavoro per il database (n°1) **VIVA WINDOWS**
 # Alunno 2
-Prova
+Prova **USO VISUAL STUDIO**
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -48,11 +48,24 @@ Cecilia Corbara, 11 DB e form
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+#**FORZA ROMA**
+##**LAZIO MERDA**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
 # Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
-
+Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
+connettere il Db a libreofffice. Nella prima parte del compito era 
+richiesto di creare un collegamento al database. Per creare il 
+collegamento con libreoffice base era necessario avere un database. Dopo 
+aver creato su mariaDB il database chiamato “discografia” con annessa 
+password *************, ho creato le tabelle con il codice proposto 
+dall’esercizio su ferret dato dal professore.
+Una volta controllato il procedimento per la giusta creazione del 
+database, ho fatto il collegamento con libreoffice base. È stato 
+necessario eseguire tutti i passaggi su base per riuscire ad avere una 
+connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
+ho fatto la parte grafica base del database
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
@@ -70,6 +83,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 [Come creare un .gitignore](https://gist.github.com/simonemastella/e69cd0a0d9fe151e52c0fc53ac4ad3ea)
 
 [Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
+
+[Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
 
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
