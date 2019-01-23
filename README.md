@@ -90,7 +90,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 # Alunno 13
 Christopher
 # Alunno 14
-Ciao, sono Petrocca Fabio detto **_Fabenz_**.
+Ciao, sono Petrocca Fabio addetto alla grafica.
+Sto lavorando al logo.
 # Alunno 15
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
