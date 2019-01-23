@@ -50,7 +50,7 @@ Ciao sono Edoardo Di Vita, 6 git master
 Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
-# Alunno 8
+# Alunno 8, Guerini Nicolò
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
 connettere il Db a libreofffice. Nella prima parte del compito era 
