@@ -61,6 +61,7 @@ Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
 Ciao, sono l'alunno **Simone Mastella**.
 Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
+
 [Come inizializare una repository](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
 
 [Quali comandi usare per un uso ordinario](https://gist.github.com/simonemastella/90364ec267d65a5328bd97c23aee1864)
