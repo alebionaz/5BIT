@@ -71,6 +71,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 
 [Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
 
+[Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
+
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
 Christopher
