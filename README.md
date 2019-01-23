@@ -39,7 +39,7 @@ git push origin master
 # Alunno 1
 Adamo Elia lavoro per il database (n°1)
 # Alunno 2
-
+Prova
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -49,8 +49,9 @@ Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 # Alunno 7
-Ciao sono _Gallo_ approvo il commento di Gyppaz
+Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
 # Alunno 8
+<<<<<<< HEAD
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
 connettere il Db a libreofffice. Nella prima parte del compito era 
 richiesto di creare un collegamento al database. Per creare il 
@@ -63,6 +64,10 @@ database, ho fatto il collegamento con libreoffice base. È stato
 necessario eseguire tutti i passaggi su base per riuscire ad avere una 
 connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
 ho fatto la parte grafica base del database
+=======
+Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
+
+>>>>>>> f98ef1bb31a30fe4427ee1ccaa6398fc379caec8
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
@@ -70,7 +75,20 @@ Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
-Ciao, sono mastella, lavoro: 6 git master
+Ciao, sono l'alunno **Simone Mastella**.
+Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
+
+[Come inizializare una repository](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
+
+[Quali comandi usare per un uso ordinario](https://gist.github.com/simonemastella/90364ec267d65a5328bd97c23aee1864)
+
+[Come creare un .gitignore](https://gist.github.com/simonemastella/e69cd0a0d9fe151e52c0fc53ac4ad3ea)
+
+[Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
+
+[Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
+
+[Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
 Christopher
 # Alunno 14
@@ -79,13 +97,19 @@ Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
+## Casa discografica 
+Avevo creato il database e due utenti con permessi diversi. Ho cambiato indirizzo ip nel file 50-server.cnf all'interno della directory /etc/mysql/mariadb.conf.d in modo che qualcuno possa accedere al database da remoto.
+ 
+
+
+
 # Alunno 17
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
-
+Mi è stato assegnato il compito 9 DB
 # Alunno 20
 
 # Alunno 21
