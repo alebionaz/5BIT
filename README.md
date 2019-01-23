@@ -39,7 +39,7 @@ git push origin master
 # Alunno 1
 Adamo Elia lavoro per il database (n°1)
 # Alunno 2
-
+Prova
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -52,6 +52,7 @@ Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
+
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
@@ -68,6 +69,12 @@ Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
+## Casa discografica 
+Avevo creato il database e due utenti con permessi diversi. Ho cambiato indirizzo ip nel file 50-server.cnf all'interno della directory /etc/mysql/mariadb.conf.d in modo che qualcuno possa accedere al database da remoto.
+ 
+
+
+
 # Alunno 17
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
 # Alunno 18
