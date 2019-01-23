@@ -70,6 +70,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 [Come creare un .gitignore](https://gist.github.com/simonemastella/e69cd0a0d9fe151e52c0fc53ac4ad3ea)
 
 [Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
+
+[Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
 Christopher
 # Alunno 14
@@ -90,7 +92,7 @@ Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a V
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
-
+Mi è stato assegnato il compito 9 DB
 # Alunno 20
 
 # Alunno 21
