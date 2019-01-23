@@ -1,0 +1,12 @@
+relazione_marchesano
+====================
+
+# Web master
+Si occupa del sito internet: css, js e varie.
+# Lavoro atteso
+Creare il sito internet e modelli di pagina in html.
+Lavoro atteso
+Creare il sito internet e modelli di pagina in html.
+# Relazioni e documentazione
+In attesa di eventuali istruzioni per quanto riguarda il design della pagina, il miglior modello da usare per la pagina web è bootstrap, che è in grado di fornire una base pronta per una pagina web con eventuali menu. Inoltre si consiglia di utilizzare un form di bootstrap per una ricerca a cascata avanzata, così da poter ricercare i vari dettagli dati dalla casa discografica per poter semplificare la ricerca di un brano.
+![Tux, the Linux mascot](/immagini/img_marchesano.png)
