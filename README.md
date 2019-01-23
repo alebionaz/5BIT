@@ -48,7 +48,7 @@ Ciao sono _Scarpante_
 Sposato Fabio è un figo
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
-
+Mi è stato assegnato il compito 9 DB
 # Alunno 20
 
 # Alunno 21
