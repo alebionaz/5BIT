@@ -1,9 +1,4 @@
 var searchData=
 [
-<<<<<<< HEAD
-  ['relazione_5ffabrizi',['relazione_fabrizi',['../md_relazione_fabrizi.html',1,'']]],
-  ['relazione_5fmarchesano',['relazione_marchesano',['../md_relazione_marchesano.html',1,'']]]
-=======
-  ['relazione_20piffari',['Relazione Piffari',['../md_relazione_piffari.html',1,'']]]
->>>>>>> bac24d7a0e2fdb74d80b806f0a56589b4fdf50e2
+  ['materiale_20per_20la_20classe_205bit_20as_202018_2d2019_20_28i_2e_20manzetti_20_2d_20aosta_29',['Materiale per la classe 5bit AS 2018-2019 (I. Manzetti - Aosta)',['../md_README.html',1,'']]]
 ];
