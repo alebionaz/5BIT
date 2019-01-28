@@ -106,7 +106,7 @@ ho creato il database il database "documentazione", ho creato 2 utenti uno 'admi
 
 
 # Alunno 17
-Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
+Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a Vergaro. Ho recuparato il file di Ferret per poi creare le relative tabella. Dopodiché abbiamo apportato le modifiche del caso. Dopo questo passaggio ho provato con un database in locale se le tabelle funzionassero corretamente. 
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
@@ -115,7 +115,7 @@ Mi è stato assegnato il compito 9 DB
 # Alunno 20
 
 # Alunno 21
-ciao sono Jacopo, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a _Scarpante_
+ciao sono Jacopo, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a _Scarpante_
 
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
