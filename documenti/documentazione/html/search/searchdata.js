@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "$chimprs",
-  1: "chpr",
+  0: "$chimprst",
+  1: "chprt",
   2: "i",
   3: "$",
   4: "imprs"
@@ -18,10 +18,10 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
-  1: "Files",
-  2: "Functions",
-  3: "Variables",
-  4: "Pages"
+  0: "Tutto",
+  1: "File",
+  2: "Funzioni",
+  3: "Variabili",
+  4: "Pagine"
 };
 
