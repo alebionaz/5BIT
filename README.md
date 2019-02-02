@@ -72,7 +72,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
-# Alunno 12
+# Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
 Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
 
