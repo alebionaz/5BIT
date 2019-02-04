@@ -71,7 +71,12 @@ necessario eseguire tutti i passaggi su base per riuscire ad avere una
 connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
 ho fatto la parte grafica base del database
 # Alunno 9
-Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
+Sono _Gyppaz_, ho lavorato sulla documentazione 5 insieme a _Gallo_. Il nostro compito era quello di creare le
+funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
+già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
+messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
+ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
+cartella documenti con il nome relazione_5...
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
