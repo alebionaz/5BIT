@@ -61,7 +61,8 @@ Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
 Ciao, sono mastella, lavoro: 6 git master
 # Alunno 13
-Christopher
+Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
+* [Il Diagramma di GANTT](./documentazione/diagramma_di_gantt)
 # Alunno 14
 Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 # Alunno 15
