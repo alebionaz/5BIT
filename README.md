@@ -128,7 +128,7 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
-* [Il Diagramma di GANTT](./documentazione/diagramma_di_gantt)
+* [Il Diagramma di GANTT](./documentazione/diagramma_di_gantt.html)
 # Alunno 14
 Ciao, sono Petrocca Fabio addetto alla grafica.
 Sto lavorando al logo.
