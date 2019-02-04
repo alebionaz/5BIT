@@ -45,7 +45,17 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master
+Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+
+Come inizializzare una repository .
+Quali comandi usare per uso ordinario .
+Come creare un .gitclone .
+Come creare la tua GPG Key .
+Quali comandi usare per avere i commit verificati .
+Salvare le credenziali .
+
+Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+
 # Alunno 6 
 # Esercizi di informatica assegnati il 09/01/2019
 ## Documentazione
@@ -136,7 +146,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
-Christopher
+Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
+* [Il Diagramma di GANTT](./documenti/diagramma_di_gantt.html)
 # Alunno 14
 Ciao, sono Petrocca Fabio addetto alla grafica.
 Sto lavorando al logo.
