@@ -47,7 +47,6 @@ Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-<<<<<<< HEAD
 # Esercizi di informatica assegnati il 09/01/2019
 ## Documentazione
 Crea la documentazione e i manuali utente.
@@ -90,11 +89,6 @@ Doxygen = Doxygen è lo strumento standard di fatto per generare documentazione 
     - Eseguire il file modificato (doxygen Doxyfile);
     - Verrà creata una cartella html nella quale ci sarà il file da aprire (index.html);
     - Nella cartella vanno messi i file desiderati, ad esempio Php e Markdown sicché il programma doxygen possa leggere il file. 
-#**FORZA ROMA**
-##**LAZIO MERDA**
-=======
-Ciao, sono Fabrizi e lavoro per la documentazione (n°79) & **Forza Roma**
->>>>>>> 606e6d80a7806b4157414110cb19762c289ff262
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz
 # Alunno 8
