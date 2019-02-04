@@ -47,7 +47,48 @@ Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+# Esercizi di informatica assegnati il 09/01/2019
+## Documentazione
+Crea la documentazione e i manuali utente.
+## Lavoro atteso
+Manuale per programmatori e  utenti.
+## Relazioni e documentazioni
+Creare una relazione con le informazioni utili a descrivere il lavoro fatto e le informazioni per gli altri utenti che devono utilizzare tale lavoro.
+## Svolgimento
+Vedi relazione su altro foglio
+## Fonti
+Appunti presi in classe
+Questo documento: relazione_info_20190109_ss.fabrizi.odt
+Percorso: _/home/user/Desktop/mondo/_
+## Allegati
+Nessuno
+
+# RELAZIONE INFORMATICA
+## _“Casa Discografica”_
+
+## GRUPPO 
+Herman Hausherr e Simone Fabrizi;
+## OGGETTO 
+Creare un manualre per i programmatori e un manuale per gli utenti;
+## MATERIALI UTILIZZATI
+Pc, monitor, tastiera e mouse;
+## PROGRAMMI UTILIZZATI
+Doxygen, Libreoffice e Mozilla;
+## SVOLGIMENTO
+    1. Abbiamo analizzato la consegna evidenziando le parole chiave;
+    2. Scaricato tutti i programmi necessari (doxygen);
+    3. Guardato come funziona quest’ultimo programma in quanto nuovo; 
+    4. Fatto delle prove per capire il suo funzionamento;
+## APPROFONDIMENTI
+Doxygen = Doxygen è lo strumento standard di fatto per generare documentazione da sorgenti C ++ annotate, ma supporta anche altri linguaggi di programmazione popolari come C, Objective-C, C #, PHP, Java, Python, ecc.
+## FUNZIONAMENTO DOXYGEN
+    - Scaricare il programma dal terminale (apt-get install doxygen);
+    - Creare una cartella di lavoro dove eseguire i comandi;
+    - Creare file di configurazione (doxygen -g Doxyfile);
+    - Modificare il file di configurazione in base alle proprie esigenze;
+    - Eseguire il file modificato (doxygen Doxyfile);
+    - Verrà creata una cartella html nella quale ci sarà il file da aprire (index.html);
+    - Nella cartella vanno messi i file desiderati, ad esempio Php e Markdown sicché il programma doxygen possa leggere il file. 
 #**FORZA ROMA**
 ##**LAZIO MERDA**
 # Alunno 7
@@ -69,7 +110,7 @@ ho fatto la parte grafica base del database
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
-Ciao, mi chiamo **Hermann Hausherr** e mi sono occupato della gestione della documentazione tramite Doxygen.
+Sono **Hermann Hausherr** e mi sono occupato della gestione della documentazione tramite Doxygen.
 ### Configurare doxygen
 Dopo averlo installato con il comando "sudo apt-get install doxygen" mi sono collocato nella directory di lavoro _git/5BIT/documenti/documentazione/_ successivamente eseguire i seguenti comandi:
 > doxygen -g doxyfile
