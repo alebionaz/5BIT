@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>5 BIT: Relazione Piffari</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">5 BIT
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">Documentazione</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Relazione Piffari </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1>Svolgimento</h1>
+<h2>get_html_head("Titolo della pagina")</h2>
+<p>Non sono riuscita a creare questa funzione, ma la sua funzionalità è quella di restituire il titolo della pagina html. </p><h2>incapsula("Cerca i contatti", "h2")</h2>
+<p>La funzione incapsula che non sono riuscita a creare perché molto complessa, prende un testo ed una tipo di tag (qualsiasi, ma che deve esistere) e dopo determinati processi inserisce il testo passato dall’utente nel tag dato. La funzione incapsula non è necessaria è solo una convenzione per il programmatore. </p><h2>get_html_select_from_query($sql,$default_selected, 'onchange="showUser(this.value)"')</h2>
+<p>Anche in questo caso non sono riuscita a riscrivere la funzione, ma è molto importante perché ti fa lo script in sql prendendo l’id della tua automobile (in questo caso). La variabile onchange non contiene altro che la “lista” di tute le automobili con il loro id corrispondete. </p><h2>connetti_db()</h2>
+<p>$conn = new mysqli($servername, $username, $password); if ($conn-&gt;connect_error) { die("Connection failed: " . $conn-&gt;connect_error); } Per connetersi al db è necessario avere i dati di accesso che sono stati inclusi nel file tramite la funzione include 'conf.php', successivamente la connessione del database sarà inserita nel file che naviga all’interno del database. </p><h2>commento("Errore connessione al db.")</h2>
+<p>function commento($testo) { return "&lt;$testo&gt;"; } La funzione commento è stata creata per dare la possibilità all’utente di poter mettere dei messaggi di output significativi nel programma, con lo scopo di poter aiutare l’utente ad orientarsi ed anche per il programmatore. </p><h2>get_html_table_from_query($sql, "class=\"table-striped table-bordered"")</h2>
+<p>La funzione data una query, cioè una SELECT in linguaggio MYSQL ne crea una tabella, il secondo parametro è solo una convenienza che serve per rendere più carino l’aspetto della tabella. </p><h2>Riporta una pagina d'esempio per generare una qualunque pagina che li utilizzi in un caso reale.</h2>
+<p>Il mio esercizio si connette correttamente, ma visto che mancano delle funzioni non posso verificarne il vero e proprio funzionamento. </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

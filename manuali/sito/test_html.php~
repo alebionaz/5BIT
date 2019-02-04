@@ -1,0 +1,10 @@
+<?php
+/**
+ * Test pagina php per output html
+*/
+include('lib/html.php');
+$PAGE = "";
+$testa = incapsula("Titolo pagina", "title");
+$PAGE.=$testa;
+
+echo $PAGE;
