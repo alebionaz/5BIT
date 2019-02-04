@@ -113,7 +113,11 @@ Sposato Fabio è un figo, lavoro 8 grafico.
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 Mi è stato assegnato il compito 9 DB
 # Alunno 20
-
+ciao sono Uva e mi è stato assegnato il compito di gestire la connessione tra il database e il client utilizzando ajax e ho fatto una relazione dove cerco di spiegare come fare a riprodurre il risultato.
+## Lato server
+ho creato un file .php di esempio che si collega ad un database e sta in attesa delle richieste del client.
+## Lato client
+ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
 # Alunno 21
 ciao sono Jacopo, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a _Scarpante_
 
