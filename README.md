@@ -45,7 +45,17 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master
+Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+
+Come inizializzare una repository .
+Quali comandi usare per uso ordinario .
+Come creare un .gitclone .
+Come creare la tua GPG Key .
+Quali comandi usare per avere i commit verificati .
+Salvare le credenziali .
+
+Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+
 # Alunno 6 
 # Esercizi di informatica assegnati il 09/01/2019
 ## Documentazione
