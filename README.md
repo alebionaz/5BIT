@@ -185,12 +185,7 @@ ho creato un file .php di esempio che si collega ad un database e sta in attesa 
 ## Lato client
 ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
 # Alunno 21
-<<<<<<< HEAD
 Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli autoincrement per le chiavi virtuali.
-=======
-ciao sono Jacopo, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a _Scarpante_
->>>>>>> ac3624301df8b12bacee2f9dcf5750ea89f898fe
-
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
 Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compagni.
