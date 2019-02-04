@@ -69,7 +69,15 @@ ho fatto la parte grafica base del database
 # Alunno 9
 Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 # Alunno 10
-Ciao, mi chiamo **Hermann Hausherr**
+Ciao, mi chiamo **Hermann Hausherr** e mi sono occupato della gestione della documentazione tramite Doxygen.
+### Configurare doxygen
+Dopo averlo installato con il comando "sudo apt-get install doxygen" mi sono collocato nella directory di lavoro _git/5BIT/documenti/documentazione/_ successivamente eseguire i seguenti comandi:
+> doxygen -g doxyfile
+Poi bisogna modificare il file di configurazione generato (doxyfile) e eseguire il comando per generare il sito
+> doxygen doxyfile
+### Usare doxygen 
+Una vlota generate le directory di lavoro caricare le documentazione in markdown (*.md) in _git/5BIT/documenti/documentazione/_
+Successivamente aprire il file _git/5BIT/documenti/documentazione/html/index.html_ per verificare la corretta modifica (successivamente al _push_ per github)
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
