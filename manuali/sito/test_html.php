@@ -21,5 +21,5 @@ $corpo = incapsula($corpo, "body");
 $PAGE .= $corpo;
 
 $PAGE = incapsula($PAGE, "html");
-echo "<!DOCTYPE html>\n";
+echo "<!DOCTYPE html>" . PHP_EOL;
 echo $PAGE;
