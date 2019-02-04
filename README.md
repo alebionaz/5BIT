@@ -48,8 +48,6 @@ Cecilia Corbara, 11 DB e form
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
-#**FORZA ROMA**
-##**LAZIO MERDA**
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
 # Alunno 8
