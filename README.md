@@ -179,7 +179,11 @@ Sono Taut e mi è stato assegnato il compito
 Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 
 Si parte dal file ferret che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
 # Alunno 20
-
+ciao sono Uva e mi è stato assegnato il compito di gestire la connessione tra il database e il client utilizzando ajax e ho fatto una relazione dove cerco di spiegare come fare a riprodurre il risultato.
+## Lato server
+ho creato un file .php di esempio che si collega ad un database e sta in attesa delle richieste del client.
+## Lato client
+ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
 # Alunno 21
 <<<<<<< HEAD
 Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli autoincrement per le chiavi virtuali.
