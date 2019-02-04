@@ -175,8 +175,9 @@ Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
-Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
-Mi è stato assegnato il compito 9 DB
+Sono Taut e mi è stato assegnato il compito
+Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 
+Si parte dal file ferret che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
 # Alunno 20
 
 # Alunno 21
