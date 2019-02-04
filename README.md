@@ -49,7 +49,12 @@ Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
 Ciao, sono Fabrizi e lavoro per la documentazione (n°79) & **Forza Roma**
 # Alunno 7
-Ciao sono _Gallo_ approvo il commento di Gyppaz
+Sono _Gallo_, ho lavorato sulla documentazione 5 insieme a _Gyppaz_. Il nostro compito era quello di creare le
+funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
+già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
+messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
+ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
+cartella documenti con il nome relazione_5...
 # Alunno 8
 Sono Guerini, busy for you, fireball, parappaparapa (sicci il più bello).
 # Alunno 9
