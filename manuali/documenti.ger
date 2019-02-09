@@ -1,5 +1,5 @@
 Documentazione
-/media/picchio/dati/picchio/mondo/scuola/2018-2019/5bit/documenti/documenti.ger
+/home/picchio/public_html/2018-2019/git/5BIT/manuali/documenti.ger
 Picchiottino Roberto per 5bit as 2018-2019
 4
 9
@@ -19,8 +19,8 @@ padre
 padre
 relation7
 comandi
-802.0
-122.0
+670
+99
 4
 id_comando int
 nome varchar(255)
@@ -32,8 +32,8 @@ id_comando
 relation7
 relation8
 esempi
-1176.0
-110.0
+1080
+107
 2
 id int
 testo text
@@ -50,14 +50,14 @@ padre
 2
 argomenti
 1
-N
+1
 argomenti
 1
-N
+1
 relation7
 0
-611
-154
+477
+201
 0
 2
 comandi
@@ -68,8 +68,8 @@ argomenti
 1
 relation8
 0
-988
-69
+875
+108
 0
 2
 esempi
