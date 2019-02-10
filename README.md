@@ -37,9 +37,13 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database (n°1) **VIVA WINDOWS**
+<<<<<<< HEAD
+Adamo Elia lavoro per il database, in questo momento mi sto occupando della raccolta dei comandi per connettersi al server e anche dei test di connessione col database assieme a Raffa. (n°1)
+=======
+Adamo Elia lavoro per il database (n°1) 
+>>>>>>> 09e394e9f5b050367441defe599364c60b7869db
 # Alunno 2
-Prova **USO VISUAL STUDIO**
+Prova 
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -47,7 +51,10 @@ Cecilia Corbara, 11 DB e form
 # Alunno 5
 Ciao sono Edoardo Di Vita, 6 git master
 # Alunno 6 
-Ciao, sono Fabrizi e lavoro per la documentazione (n°7)
+Sono **Fabrizi** e lavoro per la documentazione (n°7)
+Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe e facilitare lo studio. Il programma utilizzato è **Doxygen**, strumento standard di fatto per generare documentazione da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il suo funzionamento, l’ho scaricato (_apt-get_ _install_ _doxygen_), creato una cartella di lavoro dove eseguire i comandi.
+####Link per comandi utili:
+[Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
 # Alunno 7
 Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
 # Alunno 8
@@ -70,7 +77,7 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
-# Alunno 12
+# Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
 Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
 
@@ -88,19 +95,23 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 # Alunno 13
 Christopher
 # Alunno 14
-Ciao, sono Petrocca Fabio detto **_Fabenz_**.
+Ciao, sono Petrocca Fabio addetto alla grafica.
+Sto lavorando al logo.
 # Alunno 15
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 ## Casa discografica 
 Avevo creato il database e due utenti con permessi diversi. Ho cambiato indirizzo ip nel file 50-server.cnf all'interno della directory /etc/mysql/mariadb.conf.d in modo che qualcuno possa accedere al database da remoto.
+## database documentazione
+ho creato il database il database "documentazione", ho creato 2 utenti uno 'admin' e l'altro 'user'. I due account hanno una password diversa. Admin ha i permessi per modificare il database e user può solo vedere il database. 
+
  
 
 
 
 # Alunno 17
-Ciao sono _Scarpante_, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a Vergaro
+Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a Vergaro. Ho recuparato il file di Ferret per poi creare le relative tabella. Dopodiché abbiamo apportato le modifiche del caso. Dopo questo passaggio ho provato con un database in locale se le tabelle funzionassero corretamente. 
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
@@ -109,7 +120,7 @@ Mi è stato assegnato il compito 9 DB
 # Alunno 20
 
 # Alunno 21
-ciao sono Jacopo, ho svolto la parte numero 2 (*DBA* *tabella*) insieme a _Scarpante_
+ciao sono Jacopo, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a _Scarpante_
 
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
