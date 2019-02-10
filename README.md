@@ -60,57 +60,15 @@ Quali comandi usare per avere i commit verificati .
 Salvare le credenziali .
 
 Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+# Alunno 6
+Sono **Fabrizi** e lavoro per la documentazione (n°7).
+Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe 
+e facilitare lo studio. Il programma utilizzato è **Doxygen**, strumento standard di fatto per generare documentazione 
+da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il suo funzionamento, l’ho scaricato 
+(_apt-get_ _install_ _doxygen_), creato una cartella di lavoro dove eseguire i comandi.
 
-# Alunno 6 
-<<<<<<< HEAD
-Sono **Fabrizi** e lavoro per la documentazione (n°7)
-Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe e facilitare lo studio. Il programma utilizzato è **Doxygen**, strumento standard di fatto per generare documentazione da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il suo funzionamento, l’ho scaricato (_apt-get_ _install_ _doxygen_), creato una cartella di lavoro dove eseguire i comandi.
 ####Link per comandi utili:
 [Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
-=======
-# Esercizi di informatica assegnati il 09/01/2019
-## Documentazione
-Crea la documentazione e i manuali utente.
-## Lavoro atteso
-Manuale per programmatori e  utenti.
-## Relazioni e documentazioni
-Creare una relazione con le informazioni utili a descrivere il lavoro fatto e le informazioni per gli altri utenti che devono utilizzare tale lavoro.
-## Svolgimento
-Vedi relazione su altro foglio
-## Fonti
-Appunti presi in classe
-Questo documento: relazione_info_20190109_ss.fabrizi.odt
-Percorso: _/home/user/Desktop/mondo/_
-## Allegati
-Nessuno
-
-# RELAZIONE INFORMATICA
-## _“Casa Discografica”_
-
-## GRUPPO 
-Herman Hausherr e Simone Fabrizi;
-## OGGETTO 
-Creare un manualre per i programmatori e un manuale per gli utenti;
-## MATERIALI UTILIZZATI
-Pc, monitor, tastiera e mouse;
-## PROGRAMMI UTILIZZATI
-Doxygen, Libreoffice e Mozilla;
-## SVOLGIMENTO
-    1. Abbiamo analizzato la consegna evidenziando le parole chiave;
-    2. Scaricato tutti i programmi necessari (doxygen);
-    3. Guardato come funziona quest’ultimo programma in quanto nuovo; 
-    4. Fatto delle prove per capire il suo funzionamento;
-## APPROFONDIMENTI
-Doxygen = Doxygen è lo strumento standard di fatto per generare documentazione da sorgenti C ++ annotate, ma supporta anche altri linguaggi di programmazione popolari come C, Objective-C, C #, PHP, Java, Python, ecc.
-## FUNZIONAMENTO DOXYGEN
-    - Scaricare il programma dal terminale (apt-get install doxygen);
-    - Creare una cartella di lavoro dove eseguire i comandi;
-    - Creare file di configurazione (doxygen -g Doxyfile);
-    - Modificare il file di configurazione in base alle proprie esigenze;
-    - Eseguire il file modificato (doxygen Doxyfile);
-    - Verrà creata una cartella html nella quale ci sarà il file da aprire (index.html);
-    - Nella cartella vanno messi i file desiderati, ad esempio Php e Markdown sicché il programma doxygen possa leggere il file. 
->>>>>>> 4a1eaf9864f077148707905af94aaadb68c761b1
 # Alunno 7
 Sono _Gallo_, ho lavorato sulla documentazione 5 insieme a _Gyppaz_. Il nostro compito era quello di creare le
 funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
