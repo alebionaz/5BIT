@@ -37,11 +37,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-<<<<<<< HEAD
-Adamo Elia lavoro per il database, in questo momento mi sto occupando della raccolta dei comandi per connettersi al server e anche dei test di connessione col database assieme a Raffa. (n°1)
-=======
 Adamo Elia lavoro per il database (n°1) 
->>>>>>> 09e394e9f5b050367441defe599364c60b7869db
 # Alunno 2
 Prova 
 # Alunno 3
@@ -49,14 +45,79 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master
+Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+
+Come inizializzare una repository .
+
+Quali comandi usare per uso ordinario .
+
+Come creare un .gitclone .
+
+Come creare la tua GPG Key .
+
+Quali comandi usare per avere i commit verificati .
+
+Salvare le credenziali .
+
+Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+
 # Alunno 6 
+<<<<<<< HEAD
 Sono **Fabrizi** e lavoro per la documentazione (n°7)
 Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe e facilitare lo studio. Il programma utilizzato è **Doxygen**, strumento standard di fatto per generare documentazione da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il suo funzionamento, l’ho scaricato (_apt-get_ _install_ _doxygen_), creato una cartella di lavoro dove eseguire i comandi.
 ####Link per comandi utili:
 [Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
+=======
+# Esercizi di informatica assegnati il 09/01/2019
+## Documentazione
+Crea la documentazione e i manuali utente.
+## Lavoro atteso
+Manuale per programmatori e  utenti.
+## Relazioni e documentazioni
+Creare una relazione con le informazioni utili a descrivere il lavoro fatto e le informazioni per gli altri utenti che devono utilizzare tale lavoro.
+## Svolgimento
+Vedi relazione su altro foglio
+## Fonti
+Appunti presi in classe
+Questo documento: relazione_info_20190109_ss.fabrizi.odt
+Percorso: _/home/user/Desktop/mondo/_
+## Allegati
+Nessuno
+
+# RELAZIONE INFORMATICA
+## _“Casa Discografica”_
+
+## GRUPPO 
+Herman Hausherr e Simone Fabrizi;
+## OGGETTO 
+Creare un manualre per i programmatori e un manuale per gli utenti;
+## MATERIALI UTILIZZATI
+Pc, monitor, tastiera e mouse;
+## PROGRAMMI UTILIZZATI
+Doxygen, Libreoffice e Mozilla;
+## SVOLGIMENTO
+    1. Abbiamo analizzato la consegna evidenziando le parole chiave;
+    2. Scaricato tutti i programmi necessari (doxygen);
+    3. Guardato come funziona quest’ultimo programma in quanto nuovo; 
+    4. Fatto delle prove per capire il suo funzionamento;
+## APPROFONDIMENTI
+Doxygen = Doxygen è lo strumento standard di fatto per generare documentazione da sorgenti C ++ annotate, ma supporta anche altri linguaggi di programmazione popolari come C, Objective-C, C #, PHP, Java, Python, ecc.
+## FUNZIONAMENTO DOXYGEN
+    - Scaricare il programma dal terminale (apt-get install doxygen);
+    - Creare una cartella di lavoro dove eseguire i comandi;
+    - Creare file di configurazione (doxygen -g Doxyfile);
+    - Modificare il file di configurazione in base alle proprie esigenze;
+    - Eseguire il file modificato (doxygen Doxyfile);
+    - Verrà creata una cartella html nella quale ci sarà il file da aprire (index.html);
+    - Nella cartella vanno messi i file desiderati, ad esempio Php e Markdown sicché il programma doxygen possa leggere il file. 
+>>>>>>> 4a1eaf9864f077148707905af94aaadb68c761b1
 # Alunno 7
-Ciao sono _Gallo_ approvo il commento di Gyppaz e lavoro sulla documentazione 5.
+Sono _Gallo_, ho lavorato sulla documentazione 5 insieme a _Gyppaz_. Il nostro compito era quello di creare le
+funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
+già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
+messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
+ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
+cartella documenti con il nome relazione_5...
 # Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
@@ -72,7 +133,12 @@ necessario eseguire tutti i passaggi su base per riuscire ad avere una
 connessione riuscita. Dopodichè ho creato tutte le relazioni su base ed 
 ho fatto la parte grafica base del database
 # Alunno 9
-Ciao sono _Gyppaz_ approvo il commento di Gallo e lavoro sulla documentazione 5.
+Sono _Gyppaz_, ho lavorato sulla documentazione 5 insieme a _Gallo_. Il nostro compito era quello di creare le
+funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
+già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
+messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
+ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
+cartella documenti con il nome relazione_5...
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
@@ -93,7 +159,8 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
 # Alunno 13
-Christopher
+Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
+* [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
 # Alunno 14
 Ciao, sono Petrocca Fabio addetto alla grafica.
 Sto lavorando al logo.
@@ -115,13 +182,17 @@ Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
 # Alunno 19 Taut Denisa
-Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
-Mi è stato assegnato il compito 9 DB
+Sono Taut e mi è stato assegnato il compito
+Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 
+Si parte dal file ferret che il docente ha messo a disposizione ma vanno aggiunti i campi opportuni e gli autoincrement per le chiavi virtuali.
 # Alunno 20
-
+ciao sono Uva e mi è stato assegnato il compito di gestire la connessione tra il database e il client utilizzando ajax e ho fatto una relazione dove cerco di spiegare come fare a riprodurre il risultato.
+## Lato server
+ho creato un file .php di esempio che si collega ad un database e sta in attesa delle richieste del client.
+## Lato client
+ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
 # Alunno 21
-ciao sono Jacopo, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a _Scarpante_
-
+Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli autoincrement per le chiavi virtuali.
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
 Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compagni.
