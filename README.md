@@ -67,7 +67,7 @@ e facilitare lo studio. Il programma utilizzato è **Doxygen**, strumento standa
 da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il suo funzionamento, l’ho scaricato 
 (_apt-get_ _install_ _doxygen_), creato una cartella di lavoro dove eseguire i comandi.
 
-####Link per comandi utili:
+#### Link per comandi utili:
 [Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
 # Alunno 7
 Sono _Gallo_, ho lavorato sulla documentazione 5 insieme a _Gyppaz_. Il nostro compito era quello di creare le
