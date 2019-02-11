@@ -42,7 +42,7 @@ git push origin master
 Adamo Elia lavoro per il database (n°1)  
 Trovare tempo! ....
 # Alunno 2
-Prova 
+
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
