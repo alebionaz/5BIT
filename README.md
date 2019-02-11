@@ -22,6 +22,8 @@ Quando trovi una soluzione che ti piace, cerca di capire come è stata implememn
 
 Fai molta attenzione alla licenza d'uso: deve essere compatibile con quella che utilizzi.
 
+### Docuemtazione peg GIT
+[Guida tascabile GIT](https://rogerdudler.github.io/git-guide/index.it.html)
 ### Aggiorna il repository
 Alcuni comandi utili ...
 ```
@@ -37,7 +39,8 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database (n°1) 
+Adamo Elia lavoro per il database (n°1)
+Trovare tempo! ....
 # Alunno 2
 Prova 
 # Alunno 3
