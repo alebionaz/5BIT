@@ -39,7 +39,7 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database (n°1) 
+Adamo Elia lavoro per il database (n°1)  
 Trovare tempo! ....
 # Alunno 2
 Prova 
