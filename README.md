@@ -101,7 +101,24 @@ messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_
 ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
 cartella documenti con il nome relazione_5...
 # Alunno 10
-Ciao, mi chiamo **Hermann Hausherr**
+Ciao, sono l'alunno **Hermann Hausherr** e mi sono occupato della documentazione con doxygen. Spiegherò come installarlo e usarlo opportunamente.
+## Installazione Doxygen
+per installare doxygen basta avviare il comando
+> sudo apt-get install doxygen
+## Configurazione cartella di lavoro Doxygen
+per creare la prima cartella per la documentazione bisogna innanzitutto generare il file di configurazione di doxygen con il comando:
+> doxygen -g doxyfile
+(**N.B.** si consiglia di usare il nome doxyfile, ma può essere a piacere) 
+una volta creato il file di configurazione bisogna modificarlo per impostare i parametri a piacere. Per farlo basta aprire il file doxyfile con un qualsiasi editor di testo.
+
+Successivamente bisogna generare la documentazione con il comando:
+> doxygen doxyfile
+UNa volta generata si vedranno apparire le cartelle "html" e "latex". Nella cartella html sarà presente il sito visualizzabile dalla pagina _html/index.html_.
+## Utilizzo cartella documentazione 
+tutti i successivi file della documentazione (in markdown) dovranno essere presenti nella directory in cui è presente il file di configurazione (documenti/documentazione) e per rendere effettive le modifiche prima di caricarle su git bisogna rigenerare la documentazione con
+> doxygen doxyfile
+## Visualizzare la documentazione
+Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
 # Alunno 11
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12, Simone Mastella
