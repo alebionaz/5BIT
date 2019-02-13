@@ -48,7 +48,7 @@ Per connettersi al database tutte le informazioni si potranno trovare da Raffa
 Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
 
 # Alunno 2, [GIT Master](#git-master)
- Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di maintainer.
+ Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di **maintainer**.
 ## Info Utili
 ### Struttura Repo
 Lo schema seguente mostra una struttura semplificata con solo le directory significative della repo, in modo da mostrare quali file sono contenuti in ogni directory.
@@ -83,7 +83,7 @@ Questa sezione contiene letteralmente una lista delle cose da fare (To-Do) e anc
     $ bash <(curl -s linkfile.sh)
     ```
 ## Lavoro Svolto
-Per adesso mi sono occupato e mi sto occupando tutt'ora di mantenere la repo ordinata e pulita, infatti, ho sistemato il file README correggendo vari errori e applicando uno stile di formattazione omogenea. Inoltre, ho aiutato gli altri utenti in difficoltà.
+Per adesso mi sono occupato e mi sto occupando tuttora di mantenere la repo ordinata e pulita, infatti, oltre a sistemare il file README correggendo vari errori e applicando uno stile di formattazione omogenea, ho modificato il file **.gitignore** per gestire i file temporanei di _emacs_. Inoltre, ho aiutato gli altri utenti in difficoltà.
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
