@@ -169,6 +169,8 @@ ho creato il database il database "documentazione", ho creato 2 utenti uno 'admi
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a Vergaro. Ho recuparato il file di Ferret per poi creare le relative tabella. Dopodiché abbiamo apportato le modifiche del caso. Dopo questo passaggio ho provato con un database in locale se le tabelle funzionassero corretamente. 
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
+
+Sto lavorando alla carta intestata. Sono in gruppo con Fabio Petrocca e lui si sta occupando del logo, quando lo avrà finito lo inserirò all'interno della carta intestata. Per fare la carta intestata utilizzo libre office writer.
 # Alunno 19 Taut Denisa
 Sono Taut e mi è stato assegnato il compito
 Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 
