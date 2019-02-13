@@ -107,6 +107,7 @@ messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_
 ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
 cartella documenti con il nome relazione_5...
 # Alunno 10
+<<<<<<< HEAD
 Ciao, sono l'alunno **Hermann Hausherr** e mi sono occupato della documentazione con doxygen. Spiegherò come installarlo e usarlo opportunamente.
 ## Installazione Doxygen
 per installare doxygen basta avviare il comando
@@ -126,6 +127,27 @@ Una volta generata si vedranno apparire le cartelle "html" e "latex". Nella cart
 ## Utilizzo cartella documentazione 
 tutti i successivi file della documentazione (in markdown) dovranno essere presenti nella directory in cui è presente il file di configurazione (documenti/documentazione) e per rendere effettive le modifiche prima di caricarle su git bisogna rigenerare la documentazione con
 > doxygen doxyfile
+=======
+Ciao, mi chiamo **Hermann Hausherr**
+# Alunno 11
+Ciao sono **Gabriele Marchesano**, sono **3 Web master**
+# Alunno 12
+Ciao, sono mastella, lavoro: 6 git master
+<<<<<<< HEAD
+=======
+=======
+Ciao! Sono l'alunno **Gabriele Marchesano**
+## Sono un Web Master
+Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i linguaggi _html_, _css_ e altri tipi di linguaggi utilizzando anche dei framework.
+
+[Guida HTML](https://www.w3schools.com/html/)
+
+[Guida CSS](https://www.w3schools.com/css/)
+
+### In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
+
+#### Software utilizzato: Bootstrap.
+>>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 
 ## Visualizzare la documentazione
 Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
@@ -146,14 +168,38 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 [Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
 
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
+<<<<<<< HEAD
+=======
+>>>>>>> c048646bf5f63dcf99332a87909ba5234e5fad52
+>>>>>>> 3c70d35a08a60278dbeacf5d730c6589ed62fdc0
+>>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 # Alunno 13
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
 * [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
 # Alunno 14
+<<<<<<< HEAD
 Ciao, sono Petrocca Fabio addetto alla grafica.
 Sto lavorando al logo.
 # Alunno 15
 Ciao sono Edith Piffari, lavoro per il **4 PHP database**
+=======
+Ciao, sono Petrocca Fabio detto **_Fabenz_**.
+
+# Alunno 15 Edith Piffari
+Ciao sono Edith mi sto occupando del lavoro **4 PHP database**.
+## Il mio lavoro
+Mi occupo di creare delle funzioni utili per interfacciarsi al database.
+In paerticolare mi sto occupando della funzione _connetti()_ e _gethtmltablefromquery()_
+### Le Funzioni
+#### _gethtmltablefromquery()_
+Al momento la funzione _gethtmltablefromquery()_ è in lavorazione, ma il suo compito sarà
+che data una query sql, quindi una **_"SELECT"_**, la funzione restituirà una tabella con
+la query richiesta.
+#### _connetti()_
+La funzione _connetti()_ è quasi finita, il suo compito sarà quello di connettersi al 
+database, includendo il file di configurazione fornitoci dai creatori del DB.
+
+>>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 ## Casa discografica 
@@ -169,6 +215,8 @@ ho creato il database il database "documentazione", ho creato 2 utenti uno 'admi
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a Vergaro. Ho recuparato il file di Ferret per poi creare le relative tabella. Dopodiché abbiamo apportato le modifiche del caso. Dopo questo passaggio ho provato con un database in locale se le tabelle funzionassero corretamente. 
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
+
+Sto lavorando alla carta intestata. Sono in gruppo con Fabio Petrocca e lui si sta occupando del logo, quando lo avrà finito lo inserirò all'interno della carta intestata. Per fare la carta intestata utilizzo libre office writer.
 # Alunno 19 Taut Denisa
 Sono Taut e mi è stato assegnato il compito
 Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 
