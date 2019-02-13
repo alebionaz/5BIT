@@ -57,38 +57,9 @@ Ciao sono _Gyppaz_ approvo il commento di Gallo
 # Alunno 10
 Ciao, mi chiamo **Hermann Hausherr**
 # Alunno 11
-<<<<<<< HEAD
 Ciao sono **Gabriele Marchesano**, sono **3 Web master**
 # Alunno 12
 Ciao, sono mastella, lavoro: 6 git master
-=======
-Ciao! Sono l'alunno **Gabriele Marchesano**
-##Sono un Web Master
-Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i linguaggi _html_, _css_ e altri tipi di linguaggi utilizzando anche dei framework.
-[Guida HTML](https://www.w3schools.com/html/)
-
-[Guida CSS] (https://www.w3schools.com/css/)
-
-###In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
-
-####Software utilizzato: Bootstrap.
-
-# Alunno 12, Simone Mastella
-Ciao, sono l'alunno **Simone Mastella**.
-Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
-
-[Come inizializare una repository](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
-
-[Quali comandi usare per un uso ordinario](https://gist.github.com/simonemastella/90364ec267d65a5328bd97c23aee1864)
-
-[Come creare un .gitignore](https://gist.github.com/simonemastella/e69cd0a0d9fe151e52c0fc53ac4ad3ea)
-
-[Come creare la tua GPG Key](https://gist.github.com/simonemastella/2ad4f08ed6f18af7e102a8e1a573dd8d)
-
-[Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
-
-[Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
->>>>>>> c048646bf5f63dcf99332a87909ba5234e5fad52
 # Alunno 13
 Christopher
 # Alunno 14
@@ -96,15 +67,15 @@ Ciao, sono Petrocca Fabio detto **_Fabenz_**.
 
 # Alunno 15 Edith Piffari
 Ciao sono Edith mi sto occupando del lavoro **4 PHP database**.
-##Il mio lavoro
+## Il mio lavoro
 Mi occupo di creare delle funzioni utili per interfacciarsi al database.
 In paerticolare mi sto occupando della funzione _connetti()_ e _gethtmltablefromquery()_
-###Le Funzioni
-####_gethtmltablefromquery()_
+### Le Funzioni
+#### _gethtmltablefromquery()_
 Al momento la funzione _gethtmltablefromquery()_ è in lavorazione, ma il suo compito sarà
 che data una query sql, quindi una **_"SELECT"_**, la funzione restituirà una tabella con
 la query richiesta.
-####_connetti()_
+#### _connetti()_
 La funzione _connetti()_ è quasi finita, il suo compito sarà quello di connettersi al 
 database, includendo il file di configurazione fornitoci dai creatori del DB.
 
