@@ -22,7 +22,7 @@ Quando trovi una soluzione che ti piace, cerca di capire come è stata implememn
 
 Fai molta attenzione alla licenza d'uso: deve essere compatibile con quella che utilizzi.
 
-### Docuemtazione peg GIT
+### Documentazione per GIT
 [Guida tascabile GIT](https://rogerdudler.github.io/git-guide/index.it.html)
 ### Aggiorna il repository
 Alcuni comandi utili ...
@@ -47,8 +47,43 @@ Per connettersi al database tutte le informazioni si potranno trovare da Raffa
 
 Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
 
-# Alunno 2
-
+# Alunno 2, [GIT Master](#-GIT-Master)
+ Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di maintainer.
+## Info Utili
+### Struttura Repo
+Lo schema seguente mostra una struttura semplificata con solo le directory significative della repo, in modo da mostrare quali file sono contenuti in ogni directory.
+```
+├───documenti
+│   └───documentazione
+├───GPOI
+│   ├───Relazioni
+│   └───Sito
+└───manuali
+    └───sito
+```
+#### La cartella documenti
+Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#-Documentazione).
+#### La cartella GPOI
+La cartella GPOI (Gestione Progetto e Organizzazione d'Impresa) contiene tutti i file relativi alla coperativa scolastica che stiamo gestendo.
+#### La cartella manuali
+Questa cartella ha lo scopo di contenere dei manuali cartacei contenenti la documentazione base di tutti gli argomenti svolti durante l'anno, in modo da poterli consultare durante i compiti in classe o durante l'Esame di Stato.
+## File Utili
+In questa sezione sono riportati i file più importanti e significativi, come file di configurazione o simili.
+* [File di configurazione di Doxygen (documenti/documentazione/config)](documenti/documentazione/config)
+## To-Do
+Questa sezione contiene letteralmente una lista delle cose da fare (To-Do) e anche una lista di idee che ho intenzione di implementare per migliorare la repo. 
+* Creare README.md alle cartelle GPOI e Documentazione
+* Ristrutturare il contenuto delle directory per renderlo più ordinato ed intuitivo
+### Idee
+* Implementare docker nel progetto (In modo da svincolare la repo dalla directory public_html e da renderla usabile su ogni Distro / Sistema Operativo). In modo da avere:
+    *  Un webserver apache in un'immagine docker che renda visualizzabili tutte le pagine
+    *  Un dockerfile che generi le immagini dei database utilizzati dal progetto partendo da un file SQL (Al posto dei file .ger di ferret)
+* Uno script che configuri il sistema per usufruire correttamente del progetto, in modo da utilizzare un comando solo, come nell'esempio successivo.
+    ```
+    $ bash <(curl -s linkfile.sh)
+    ```
+## Lavoro Svolto
+Per adesso mi sono occupato e mi sto occupando tutt'ora di mantenere la repo ordinata e pulita, infatti, ho sistemato il file README correggendo vari errori e applicando uno stile di formattazione omogenea. Inoltre, ho aiutato gli altri utenti in difficoltà.
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -107,35 +142,31 @@ messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_
 ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
 cartella documenti con il nome relazione_5...
 # Alunno 10
-<<<<<<< HEAD
 Ciao, sono l'alunno **Hermann Hausherr** e mi sono occupato della documentazione con doxygen. Spiegherò come installarlo e usarlo opportunamente.
 ## Installazione Doxygen
 per installare doxygen basta avviare il comando
-> sudo apt-get install doxygen
-
+```
+# apt-get install doxygen
+```
 ## Configurazione cartella di lavoro Doxygen
 per creare la prima cartella per la documentazione bisogna innanzitutto generare il file di configurazione di doxygen con il comando:
-> doxygen -g doxyfile
-
+```
+$ doxygen -g doxyfile
+```
 (**N.B.** si consiglia di usare il nome doxyfile, ma può essere a piacere) 
 una volta creato il file di configurazione bisogna modificarlo per impostare i parametri a piacere. Per farlo basta aprire il file doxyfile con un qualsiasi editor di testo.
 
 Successivamente bisogna generare la documentazione con il comando:
-> doxygen doxyfile
-
+```
+$ doxygen doxyfile
+```
 Una volta generata si vedranno apparire le cartelle "html" e "latex". Nella cartella html sarà presente il sito visualizzabile dalla pagina _html/index.html_.
 ## Utilizzo cartella documentazione 
 tutti i successivi file della documentazione (in markdown) dovranno essere presenti nella directory in cui è presente il file di configurazione (documenti/documentazione) e per rendere effettive le modifiche prima di caricarle su git bisogna rigenerare la documentazione con
-> doxygen doxyfile
-=======
-Ciao, mi chiamo **Hermann Hausherr**
+```
+$ doxygen doxyfile
+```
 # Alunno 11
-Ciao sono **Gabriele Marchesano**, sono **3 Web master**
-# Alunno 12
-Ciao, sono mastella, lavoro: 6 git master
-<<<<<<< HEAD
-=======
-=======
 Ciao! Sono l'alunno **Gabriele Marchesano**
 ## Sono un Web Master
 Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i linguaggi _html_, _css_ e altri tipi di linguaggi utilizzando anche dei framework.
@@ -147,12 +178,10 @@ Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i 
 ### In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
 
 #### Software utilizzato: Bootstrap.
->>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 
 ## Visualizzare la documentazione
 Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
-# Alunno 11
-Ciao sono **Gabriele Marchesano**, sono **3 Web master**
+
 # Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
 Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
@@ -168,23 +197,11 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 [Quali comandi usare per avere i commit verificati](https://gist.github.com/simonemastella/3e763531b32e1db583e2dcb4fdd668a8)
 
 [Salvare le credenziali](https://gist.github.com/simonemastella/ecd089c6106a961eb9272a40c5b16d5a)
-<<<<<<< HEAD
-=======
->>>>>>> c048646bf5f63dcf99332a87909ba5234e5fad52
->>>>>>> 3c70d35a08a60278dbeacf5d730c6589ed62fdc0
->>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 # Alunno 13
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
 * [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
 # Alunno 14
-<<<<<<< HEAD
-Ciao, sono Petrocca Fabio addetto alla grafica.
-Sto lavorando al logo.
-# Alunno 15
-Ciao sono Edith Piffari, lavoro per il **4 PHP database**
-=======
 Ciao, sono Petrocca Fabio detto **_Fabenz_**.
-
 # Alunno 15 Edith Piffari
 Ciao sono Edith mi sto occupando del lavoro **4 PHP database**.
 ## Il mio lavoro
@@ -199,7 +216,6 @@ la query richiesta.
 La funzione _connetti()_ è quasi finita, il suo compito sarà quello di connettersi al 
 database, includendo il file di configurazione fornitoci dai creatori del DB.
 
->>>>>>> 1f628a3a9e549a63360f1a87d15c8f822d3fd8de
 # Alunno 16
 Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
 ## Casa discografica 
