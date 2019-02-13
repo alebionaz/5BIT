@@ -39,8 +39,14 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database, in questo momento mi sto occupando della raccolta dei comandi
- per connettersi al server e anche dei test di connessione col database assieme a Raffa. (n°1)
+Adamo Elia lavoro per il database, in questo momento mi sto occupando della connessione al server.
+
+Ho aiutato Raffa nei test di connessione e raccolta comandi.
+
+Per connettersi al database tutte le informazioni si potranno trovare da Raffa
+
+Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
+
 # Alunno 2
 
 # Alunno 3
