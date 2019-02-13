@@ -62,7 +62,7 @@ Lo schema seguente mostra una struttura semplificata con solo le directory signi
     └───sito
 ```
 #### La cartella documenti
-Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#-documentazione).
+Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#documentazione).
 #### La cartella GPOI
 La cartella GPOI (Gestione Progetto e Organizzazione d'Impresa) contiene tutti i file relativi alla coperativa scolastica che stiamo gestendo.
 #### La cartella manuali
