@@ -47,7 +47,7 @@ Per connettersi al database tutte le informazioni si potranno trovare da Raffa
 
 Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
 
-# Alunno 2, [GIT Master](#-GIT-Master)
+# Alunno 2, [GIT Master](#git-master)
  Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di maintainer.
 ## Info Utili
 ### Struttura Repo
@@ -62,7 +62,7 @@ Lo schema seguente mostra una struttura semplificata con solo le directory signi
     └───sito
 ```
 #### La cartella documenti
-Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#-Documentazione).
+Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#-documentazione).
 #### La cartella GPOI
 La cartella GPOI (Gestione Progetto e Organizzazione d'Impresa) contiene tutti i file relativi alla coperativa scolastica che stiamo gestendo.
 #### La cartella manuali
