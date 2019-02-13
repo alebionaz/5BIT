@@ -8,7 +8,7 @@ Prima cosa ho creato il database con le istruzoni che ci sono state date in clas
 L'utente admin ha tutti i permessi e una sua correspettiva password.L'utente user invece ha solo alcuni permessi cioè la SELECT. Per dare tutti i permessi all'amdin ho utilizzato: 
 > GRANT ALL PRIVILEGES ON documentazione.* TO  admin@'%' IDENTIFIED BY 'la password'. 
 
-Per dare solo sono gay il permesso select all'user ho usato 
+Per dare solo  il permesso select all'user ho usato 
 > GRANT SELECT ON documentazione.* to user .
  
 Così facendo ho creato due utenti con permessi diversi.
