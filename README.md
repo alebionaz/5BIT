@@ -117,6 +117,8 @@ sono raffa, eeee gioco calcio
 Ciao sono _Scarpante_
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
+
+Sto lavorando alla carta intestata. Sono in gruppo con Fabio Petrocca e lui si sta occupando del logo, quando lo avrà finito lo inserirò all'interno della carta intestata. Per fare la carta intestata utilizzo libre office writer.
 # Alunno 19 Taut Denisa
 Ciao sono _Taut_ approvo il commento di Gyppaz e Gallo
 
