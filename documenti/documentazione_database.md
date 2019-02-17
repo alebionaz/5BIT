@@ -41,7 +41,7 @@ Aggiungendo:
 iface eth0:1 inet static
 address 192.168.21.(proprio indirrizo ip della configurazione della rete privata)
 netmask 255.255.255.0
-gateway 192.168.1.254
+gateway 192.168.21.254
 ```
 Comando per mettere giù la rete:
 >ifdown
