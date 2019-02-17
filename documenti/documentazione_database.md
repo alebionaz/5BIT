@@ -36,6 +36,7 @@ Abbiamo creato una rete privata. Per farlo abbiamo usato il comando "ifconfig et
 
 ## Rendere definitiva la modifica su debian
 Modificare il file /etc/network/interfaces
+
 Aggiungendo:
 ```
 iface eth0:1 inet static
@@ -51,8 +52,10 @@ Comando per mettere in piedi la rete:
 >ifup
 # modifica file /etc/hosts
 Aggiungere la riga
+
 > 192.168.21.1 db
 Esempio:
+
 >  nano  /etc/hosts
 
 
@@ -63,6 +66,7 @@ indirizzo server: 192.168.21.1
 utente: user
 
 dbname: documentazione
+
 password:pass
 
 
