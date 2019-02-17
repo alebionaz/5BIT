@@ -43,21 +43,25 @@ address 192.168.21.(proprio indirrizo ip della configurazione della rete privata
 netmask 255.255.255.0
 gateway 192.168.21.254
 ```
-Comando per mettere giù la rete;
+Comando per mettere giù la rete
 >ifdown
+
 Comando per mettere in piedi la rete:
+
 >ifup
 # modifica file /etc/hosts
 Aggiungere la riga
 > 192.168.21.1 db
 Esempio:
-> # nano  /etc/hosts
+>  nano  /etc/hosts
 
 
 # Configurazioni da utilizzare
 ## dati
 indirizzo server: 192.168.21.1
+
 utente: user
+
 dbname: documentazione
 password:pass
 
