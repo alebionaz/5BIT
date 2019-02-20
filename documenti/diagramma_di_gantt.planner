@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<project name="Manuale" company="" manager="" phase="" project-start="20190109T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Feriale" description="Giorno feriale standard"/>
+      <day-type id="1" name="Festivo" description="Giorno festivo standard"/>
+      <day-type id="2" name="Utilizza giorno predefinito" description="Utilizza giorno da calendario base"/>
+    </day-types>
+    <calendar id="1" name="Predefinito">
+      <default-week mon="0" tue="1" wed="0" thu="0" fri="1" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0950" end="1230"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days/>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Manuale" note="" work="371400" start="20190109T000000Z" end="20190121T123000Z" work-start="20190109T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="Git Master" note="" work="7200" start="20190109T000000Z" end="20190109T103000Z" work-start="20190109T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="3" name="DBA Database administrator" note="" work="38400" start="20190109T000000Z" end="20190110T123000Z" work-start="20190109T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="4" name="DBA Tabelle" note="" work="38400" start="20190110T123000Z" end="20190116T104320Z" work-start="20190114T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="5" name="DB e libreoffice" note="" work="38400" start="20190110T123000Z" end="20190121T123000Z" work-start="20190114T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="6" name="Web master" note="" work="38400" start="20190109T103000Z" end="20190114T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="7" name="PHP database" note="" work="38400" start="20190109T103000Z" end="20190117T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="8" name="PHP html/css/js" note="" work="38400" start="20190109T103000Z" end="20190114T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="9" name="DB, dati e PHP" note="" work="38400" start="20190109T103000Z" end="20190117T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="10" name="DB e form" note="" work="38400" start="20190109T103000Z" end="20190117T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="11" name="Grafico" note="" work="38400" start="20190109T103000Z" end="20190114T103000Z" work-start="20190109T103000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="6" type="FF"/>
+        </predecessors>
+      </task>
+      <task id="12" name="Documentazione" note="" work="9600" start="20190109T000000Z" end="20190109T111000Z" work-start="20190109T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="13" name="GANTT e gestione degli incarichi" note="" work="9000" start="20190109T000000Z" end="20190109T122000Z" work-start="20190109T095000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources>
+    <resource id="1" name="Mezzomo Christopher" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="2" name="Corbara Cecilia" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="Uva Laurent" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="4" name="Guerini Nicolo" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="5" name="Fabrizi Simone" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="6" name="Mastella Simone" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="7" name="Scarpante Simone" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="8" name="Sposato Fabio" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="9" name="Marchesano Gabriele" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="10" name="Piffari Edith" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="11" name="Gyppaz Mathieu" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="12" name="Adamo Elia" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="13" name="Raffa Giacomo" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="14" name="Bionaz Alessandro" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="15" name="Hermann Hausherr" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="16" name="Di Vita Edoardo " short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="17" name="Taut Denisa" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="18" name="Gallo Alessandro" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="19" name="Bertelli Riccardo" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="20" name="Petrocca Fabio" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="21" name="Vergaro Jacopo" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+  </resources>
+  <allocations>
+    <allocation task-id="13" resource-id="1" units="100"/>
+    <allocation task-id="10" resource-id="2" units="100"/>
+    <allocation task-id="9" resource-id="3" units="100"/>
+    <allocation task-id="5" resource-id="4" units="100"/>
+    <allocation task-id="12" resource-id="5" units="100"/>
+    <allocation task-id="2" resource-id="6" units="100"/>
+    <allocation task-id="4" resource-id="7" units="100"/>
+    <allocation task-id="11" resource-id="8" units="100"/>
+    <allocation task-id="6" resource-id="9" units="100"/>
+    <allocation task-id="7" resource-id="10" units="100"/>
+    <allocation task-id="8" resource-id="11" units="100"/>
+    <allocation task-id="3" resource-id="12" units="100"/>
+    <allocation task-id="3" resource-id="13" units="100"/>
+    <allocation task-id="6" resource-id="14" units="100"/>
+    <allocation task-id="12" resource-id="15" units="100"/>
+    <allocation task-id="2" resource-id="16" units="100"/>
+    <allocation task-id="4" resource-id="17" units="100"/>
+    <allocation task-id="8" resource-id="18" units="100"/>
+    <allocation task-id="2" resource-id="19" units="100"/>
+    <allocation task-id="11" resource-id="20" units="100"/>
+    <allocation task-id="4" resource-id="21" units="100"/>
+  </allocations>
+</project>
