@@ -89,21 +89,13 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
 
-Come inizializzare una repository .
+[Analisi di Git](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
 
-Quali comandi usare per uso ordinario .
+Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
 
-Come creare un .gitclone .
-
-Come creare la tua GPG Key .
-
-Quali comandi usare per avere i commit verificati .
-
-Salvare le credenziali .
-
-Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+[Manuale Git](https://github.com/simonemastella/5BIT/blob/master/documenti/MANUALE_GIT.odt)
 # Alunno 6
 Sono **Fabrizi** e lavoro per la documentazione (n°7).
 Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe 
