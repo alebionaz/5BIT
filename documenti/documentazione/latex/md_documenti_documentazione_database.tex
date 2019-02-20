@@ -1,0 +1,76 @@
+\section*{Creazione Database}
+
+Ho creato il database con le istruzoni\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{CREATE DATABASE documentazione CHARACTER SET utf8;}
+\end{DoxyCode}
+
+
+\section*{Creazione utenti}
+
+L\textquotesingle{}utente admin ha tutti i permessi e una sua correspettiva password.\+L\textquotesingle{}utente user invece ha solo alcuni permessi cioè la S\+E\+L\+E\+CT. Per dare tutti i permessi all\textquotesingle{}admin ho utilizzato\+: \begin{quote}
+G\+R\+A\+NT A\+LL P\+R\+I\+V\+I\+L\+E\+G\+ES ON documentazione.$\ast$ TO admin@\textquotesingle{}\textquotesingle{} I\+D\+E\+N\+T\+I\+F\+I\+ED BY \textquotesingle{}la password\textquotesingle{}. \end{quote}
+
+
+Per dare solo il permesso select all\textquotesingle{}user ho usato \begin{quote}
+G\+R\+A\+NT S\+E\+L\+E\+CT ON documentazione.$\ast$ to user . \end{quote}
+
+
+Così facendo ho creato due utenti con permessi diversi.
+
+\% any valid host
+
+\section*{Apertura accesso al database da host esterni}
+
+\subsection*{Utilizzando parrot}
+
+Per far si che un host possa accedere al database bisogna cambiare una configurazione nel file 50-\/server.\+cnf che nella parrot si trova nella directory /etc/mysql/mariadb.conf.\+d bisogna cambiare l\textquotesingle{}ip in \char`\"{}bind-\/address\char`\"{} e per far si che tutti possano accedervi al posto dell\textquotesingle{}ip bisogna mettere \char`\"{}$\ast$\char`\"{}. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{bind-address=*}
+\end{DoxyCode}
+ \section*{Accesso al database}
+
+Chi volesse accedere al database deve utilizzare (da una rete uguale a quella del server) il comando "mysql -\/h (indirizzo ip del server che può essere modificato nel file hosts che si trova nella cartella /etc e assegnare all\textquotesingle{}indirizzo un nome in modo tale da non dover inserire ogni volta l\textquotesingle{}ip del server) -\/u user -\/ppasswd documentazione. la password l\textquotesingle{}ho resa pubblica perchè l\textquotesingle{}utente user può fare solo la select. S\+O\+LO chi ha bisogno dell\textquotesingle{}account admin verrà data la password.
+
+\section*{Creazione rete privata}
+
+Abbiamo creato una rete privata. Per farlo abbiamo usato il comando \char`\"{}ifconfig eth0\+:1 192.\+168.\+21.\+1\char`\"{}. Questo indirizzo ip è del server. Tutti quelli che vogliono far parte della rete devono usare il comando \textquotesingle{}ifconfig eth0\+:1 192.\+168.\+21.(100+numero di registro)\textquotesingle{}.
+
+\subsection*{Rendere definitiva la modifica su debian}
+
+Modificare il file /etc/network/interfaces
+
+Aggiungendo\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{iface eth0:1 inet static}
+\DoxyCodeLine{address 192.168.21.(proprio indirrizo ip della configurazione della rete privata)}
+\DoxyCodeLine{netmask 255.255.255.0}
+\DoxyCodeLine{gateway 192.168.21.254}
+\end{DoxyCode}
+ Comando per mettere giù la rete $>$ifdown
+
+Comando per mettere in piedi la rete\+:
+
+$>$ifup \section*{modifica file /etc/hosts}
+
+Aggiungere la riga
+
+\begin{quote}
+192.\+168.\+21.\+1 db \end{quote}
+Esempio\+:
+
+\begin{quote}
+nano /etc/hosts \end{quote}
+
+
+\section*{Configurazioni da utilizzare}
+
+\subsection*{dati}
+
+indirizzo server\+: 192.\+168.\+21.\+1
+
+utente\+: user
+
+dbname\+: documentazione
+
+password\+:pass 

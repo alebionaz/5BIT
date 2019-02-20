@@ -22,7 +22,7 @@ Quando trovi una soluzione che ti piace, cerca di capire come è stata implememn
 
 Fai molta attenzione alla licenza d'uso: deve essere compatibile con quella che utilizzi.
 
-### Docuemtazione peg GIT
+### Documentazione per GIT
 [Guida tascabile GIT](https://rogerdudler.github.io/git-guide/index.it.html)
 ### Aggiorna il repository
 Alcuni comandi utili ...
@@ -39,16 +39,51 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database, in questo momento mi sto occupando della connessione al server.
+Adamo Elia lavoro per il database.
+Sto aiutato Raffa nei test di connessione e raccolta dei vari comandi.
 
-Ho aiutato Raffa nei test di connessione e raccolta comandi.
+##Per connettersi al database: 
+$ mysql -h 192.168.21.100(+ numero di registro) -u user -ppass documentazione.
 
-Per connettersi al database tutte le informazioni si potranno trovare da Raffa
+(se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa).
 
-Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
-
-# Alunno 2
-
+# Alunno 2, [GIT Master](#git-master)
+ Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di **maintainer**.
+## Info Utili
+### Struttura Repo
+Lo schema seguente mostra una struttura semplificata con solo le directory significative della repo, in modo da mostrare quali file sono contenuti in ogni directory.
+```
+├───documenti
+│   └───documentazione
+├───GPOI
+│   ├───Relazioni
+│   └───Sito
+└───manuali
+    └───sito
+```
+#### La cartella documenti
+Questa cartella contiene varie relazioni fatte da tutti i contributors, il file ferret del database della casa discografica, varie guide e una delle parti più importanti di tutto il progetto: [La documentazione!](#documentazione).
+#### La cartella GPOI
+La cartella GPOI (Gestione Progetto e Organizzazione d'Impresa) contiene tutti i file relativi alla coperativa scolastica che stiamo gestendo.
+#### La cartella manuali
+Questa cartella ha lo scopo di contenere dei manuali cartacei contenenti la documentazione base di tutti gli argomenti svolti durante l'anno, in modo da poterli consultare durante i compiti in classe o durante l'Esame di Stato.
+## File Utili
+In questa sezione sono riportati i file più importanti e significativi, come file di configurazione o simili.
+* [File di configurazione di Doxygen (Doxyfile)](Doxyfile)
+## To-Do
+Questa sezione contiene letteralmente una lista delle cose da fare (To-Do) e anche una lista di idee che ho intenzione di implementare per migliorare la repo. 
+* Creare README.md alle cartelle GPOI e Documentazione
+* Ristrutturare il contenuto delle directory per renderlo più ordinato ed intuitivo
+### Idee
+* Implementare docker nel progetto (In modo da svincolare la repo dalla directory public_html e da renderla usabile su ogni Distro / Sistema Operativo). In modo da avere:
+    *  Un webserver apache in un'immagine docker che renda visualizzabili tutte le pagine
+    *  Un dockerfile che generi le immagini dei database utilizzati dal progetto partendo da un file SQL (Al posto dei file .ger di ferret)
+* Uno script che configuri il sistema per usufruire correttamente del progetto, in modo da utilizzare un comando solo, come nell'esempio successivo.
+    ```
+    $ bash <(curl -s linkfile.sh)
+    ```
+## Lavoro Svolto
+Per adesso mi sono occupato e mi sto occupando tuttora di mantenere la repo ordinata e pulita, infatti, oltre a sistemare il file README correggendo vari errori e applicando uno stile di formattazione omogenea, ho modificato il file **.gitignore** per gestire i file temporanei di _emacs_. Inoltre, ho aiutato gli altri utenti in difficoltà.
 # Alunno 3
 Ciao sono Bionaz.
 # Alunno 4
@@ -110,27 +145,43 @@ cartella documenti con il nome relazione_5...
 Ciao, sono l'alunno **Hermann Hausherr** e mi sono occupato della documentazione con doxygen. Spiegherò come installarlo e usarlo opportunamente.
 ## Installazione Doxygen
 per installare doxygen basta avviare il comando
-> sudo apt-get install doxygen
-
+```
+# apt-get install doxygen
+```
 ## Configurazione cartella di lavoro Doxygen
 per creare la prima cartella per la documentazione bisogna innanzitutto generare il file di configurazione di doxygen con il comando:
-> doxygen -g doxyfile
-
+```
+$ doxygen -g doxyfile
+```
 (**N.B.** si consiglia di usare il nome doxyfile, ma può essere a piacere) 
 una volta creato il file di configurazione bisogna modificarlo per impostare i parametri a piacere. Per farlo basta aprire il file doxyfile con un qualsiasi editor di testo.
 
 Successivamente bisogna generare la documentazione con il comando:
-> doxygen doxyfile
-
+```
+$ doxygen doxyfile
+```
 Una volta generata si vedranno apparire le cartelle "html" e "latex". Nella cartella html sarà presente il sito visualizzabile dalla pagina _html/index.html_.
 ## Utilizzo cartella documentazione 
 tutti i successivi file della documentazione (in markdown) dovranno essere presenti nella directory in cui è presente il file di configurazione (documenti/documentazione) e per rendere effettive le modifiche prima di caricarle su git bisogna rigenerare la documentazione con
-> doxygen doxyfile
-
+```
+$ doxygen doxyfile
+```
 ## Visualizzare la documentazione
 Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
+
 # Alunno 11
-Ciao sono **Gabriele Marchesano**, sono **3 Web master**
+Ciao! Sono l'alunno **Gabriele Marchesano**
+## Sono un Web Master
+Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i linguaggi _html_, _css_ e altri tipi di linguaggi utilizzando anche dei framework.
+
+[Guida HTML](https://www.w3schools.com/html/)
+
+[Guida CSS](https://www.w3schools.com/css/)
+
+### In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
+
+#### Software utilizzato: Bootstrap.
+
 # Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
 Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una sua repository condivisa.
@@ -150,16 +201,29 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
 * [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
 # Alunno 14
-Ciao, sono Petrocca Fabio addetto alla grafica.
-Sto lavorando al logo.
-# Alunno 15
-Ciao sono Edith Piffari, lavoro per il **4 PHP database**
-# Alunno 16
-Giacomo Raffa. Io lavoro sull'esercizio 1. devo creare il database e il server
+Ciao, sono Petrocca Fabio detto **_Fabenz_**.
+# Alunno 15 Edith Piffari
+Ciao sono Edith mi sto occupando del lavoro **4 PHP database**.
+## Il mio lavoro
+Mi occupo di creare delle funzioni utili per interfacciarsi al database.
+In paerticolare mi sto occupando della funzione _connetti()_ e _gethtmltablefromquery()_
+### Le Funzioni
+#### _gethtmltablefromquery()_
+Al momento la funzione _gethtmltablefromquery()_ è in lavorazione, ma il suo compito sarà
+che data una query sql, quindi una **_"SELECT"_**, la funzione restituirà una tabella con
+la query richiesta.
+#### _connetti()_
+La funzione _connetti()_ è quasi finita, il suo compito sarà quello di connettersi al 
+database, includendo il file di configurazione fornitoci dai creatori del DB.
+
+# Alunno 16 Raffa Giacomo
+ Io lavoro sull'esercizio 1. devo creare il database e il server
 ## Casa discografica 
 Avevo creato il database e due utenti con permessi diversi. Ho cambiato indirizzo ip nel file 50-server.cnf all'interno della directory /etc/mysql/mariadb.conf.d in modo che qualcuno possa accedere al database da remoto.
 ## database documentazione
 ho creato il database il database "documentazione", ho creato 2 utenti uno 'admin' e l'altro 'user'. I due account hanno una password diversa. Admin ha i permessi per modificare il database e user può solo vedere il database. 
+
+Il file con tutta la documentazione si trova su /documenti e si chiama documentazione_database.md.
 
  
 
@@ -169,6 +233,8 @@ ho creato il database il database "documentazione", ho creato 2 utenti uno 'admi
 Ciao sono _Scarpante_, ho svolto la parte numero 2 (**DBA** **tabella**) insieme a Vergaro. Ho recuparato il file di Ferret per poi creare le relative tabella. Dopodiché abbiamo apportato le modifiche del caso. Dopo questo passaggio ho provato con un database in locale se le tabelle funzionassero corretamente. 
 # Alunno 18
 Sposato Fabio è un figo, lavoro 8 grafico.
+
+Sto lavorando alla carta intestata. Sono in gruppo con Fabio Petrocca e lui si sta occupando del logo, quando lo avrà finito lo inserirò all'interno della carta intestata. Per fare la carta intestata utilizzo libre office writer.
 # Alunno 19 Taut Denisa
 Sono Taut e mi è stato assegnato il compito
 Mi è stato assegnato il compito numero due a cui ho lavorato assieme a Vergaro e Scarpante, il mio compito era di assicurarmi che i compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. 

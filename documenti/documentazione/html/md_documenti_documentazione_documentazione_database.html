@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>5 BIT: Documentazione database raffa(in fase di sviluppo)</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">5 BIT
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">Documentazione</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">Documentazione database raffa(in fase di sviluppo) </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1>Creazione Database</h1>
+<p>Prima cosa ho creato il database con le istruzoni che ci sono state date in classe. Poi ho creato 2 account con permessi diversi.</p>
+<h1>Creazione utenti</h1>
+<p>L'utente admin ha tutti i permessi e una sua correspettiva password.L'utente user invece ha solo alcuni permessi cioè la SELECT. Per dare tutti i permessi all'amdin ho utilizzato: </p><blockquote class="doxtable">
+<p>GRANT ALL PRIVILEGES ON documentazione.* TO admin@'' IDENTIFIED BY 'la password'. </p>
+</blockquote>
+<p>Per dare solo il permesso select all'user ho usato </p><blockquote class="doxtable">
+<p>GRANT SELECT ON documentazione.* to user . </p>
+</blockquote>
+<p>Così facendo ho creato due utenti con permessi diversi.</p>
+<p>% any valid host</p>
+<h1>Apertura accesso al database da host esterni</h1>
+<p>Per far si che un host possa accedere al database bisogna cambiare una configurazione nel file 50-server.cnf che nella parrot si trova nella directory /etc/mysql/mariadb.conf.d bisogna cambiare l'ip in "bind-address" e per far si che tutti possano accedervi al posto dell'ip bisogna mettere "*".</p>
+<h1>Accesso al database</h1>
+<p>Chi volesse accedere al database deve utilizzare (da una rete uguale a quella del server) il comando "mysql -h (indirizzo ip del server che può essere modificato nel file hosts che si trova nella cartella /etc e assegnare all'indirizzo un nome in modo tale da non dover inserire ogni volta l'ip del server) -u user -ppasswd documentazione. la password l'ho resa pubblica perchè l'utente user può fare solo la select. SOLO chi ha bisogno dell'account admin verrà data la password. </p><h1>Creazione rete privata</h1>
+<p>Abbiamo creato una rete privata. Per farlo abbiamo usato il comando "ifconfig eth0:1 192.168.21.1". Questo indirizzo ip è del server. Tutti quelli che vogliono far parte della rete devono usare il comando 'ifconfig eth0:1 192.168.21.(100+numero di registro)'. </p>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
