@@ -70,6 +70,61 @@ Questa cartella ha lo scopo di contenere dei manuali cartacei contenenti la docu
 ## File Utili
 In questa sezione sono riportati i file più importanti e significativi, come file di configurazione o simili.
 * [File di configurazione di Doxygen (Doxyfile)](Doxyfile)
+## Applicazioni Utili
+### Front-end per GIT
+Questa sezione contiene una lista di applicazioni utili a gestire GIT, con i relativi comandi per installarle.
+#### gitk
+Questa applicazione è basata su Tcl/Tk ed è una delle più semplici per gestire la repo di git.
+##### Screenshot
+![](https://screenshots.debian.net/screenshots/000/000/705/large.png)
+##### Installazione
+###### Debian
+```
+# apt update && apt install gitk
+```
+###### Arch Linux
+```
+# pacman -Sy git tk
+```
+#### qgit
+Questa applicazione permette di visionare i file modificati graficamente, seguendo differenti branch del proggeto ed è un'alternativa più completa e graficamente più gradevole di [gitk](#gitk).
+##### Screenshot
+![](https://screenshots.debian.net/screenshots/000/013/526/large.png)
+##### Installazione
+###### Debian
+```
+# apt update && apt install qgit
+```
+###### Arch Linux
+```
+# pacman -Sy qgit
+```
+#### gitg
+Questa applicazione è una delle più belle disponibili in circolazione. Infatti è stata creata dal progetto GNOME, però a causa di problemi di instabilità non mi sento di consigliarla. Comunque lascio lo stesso i comandi per poterla installare.
+##### Screenshot
+![](https://linux-cdn.softpedia.com/screenshots/gitg_1.png)
+##### Installazione
+###### Debian
+```
+# apt update && apt install gitg
+```
+###### Arch Linux
+```
+# pacman -Sy gitg
+```
+#### tig
+Questa applicazione, è basata su ncurses e funziona solo in modalità testuale. Infatti è molto leggera.
+##### Screenshot
+![](https://screenshots.debian.net/screenshots/000/009/870/large.png)
+##### Installazione
+###### Debian
+```
+# apt update && apt install tig
+```
+###### Arch Linux
+```
+# pacman -Sy tig
+```
 ## To-Do
 Questa sezione contiene letteralmente una lista delle cose da fare (To-Do) e anche una lista di idee che ho intenzione di implementare per migliorare la repo. 
 * Creare README.md alle cartelle GPOI e Documentazione
