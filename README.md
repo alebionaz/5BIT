@@ -184,10 +184,11 @@ ho fatto la parte grafica base del database
 # Alunno 9
 Sono _Gyppaz_, ho lavorato sulla documentazione 5 insieme a _Gallo_. Il nostro compito era quello di creare le
 funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
-già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
-messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
-ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
-cartella documenti con il nome relazione_5...
+già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Le fonti utilizzate
+prevalentemente sono state HTML.it e w3school. Una volta fatto ciò abbiamo iniziato a creare le funzioni e le abbiamo inserite
+in 5BIT/manuali/sito/sub i file si chiamano **get_head.php** e **get_foot.php**. Dopo aver fatto ciò ci siamo occupati della
+relazione in markdown, è consultabile in 5BIT/documenti e si chiama relazione_5_gyppaz&gallo.md. In questa relazione abbiamo
+semplicemente descritto il lavoro svolto e commentato ciò che fanno le funzioni.
 # Alunno 10
 Ciao, sono l'alunno **Hermann Hausherr** e mi sono occupato della documentazione con doxygen. Spiegherò come installarlo e usarlo opportunamente.
 ## Installazione Doxygen
