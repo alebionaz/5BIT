@@ -166,6 +166,9 @@ tutti i successivi file della documentazione (in markdown) dovranno essere prese
 ```
 $ doxygen doxyfile
 ```
+## Visualizzare la documentazione
+Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
+
 # Alunno 11
 Ciao! Sono l'alunno **Gabriele Marchesano**
 ## Sono un Web Master
@@ -178,9 +181,6 @@ Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i 
 ### In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
 
 #### Software utilizzato: Bootstrap.
-
-## Visualizzare la documentazione
-Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
 
 # Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
