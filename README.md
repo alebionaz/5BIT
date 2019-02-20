@@ -69,7 +69,7 @@ La cartella GPOI (Gestione Progetto e Organizzazione d'Impresa) contiene tutti i
 Questa cartella ha lo scopo di contenere dei manuali cartacei contenenti la documentazione base di tutti gli argomenti svolti durante l'anno, in modo da poterli consultare durante i compiti in classe o durante l'Esame di Stato.
 ## File Utili
 In questa sezione sono riportati i file più importanti e significativi, come file di configurazione o simili.
-* [File di configurazione di Doxygen (documenti/documentazione/doxyfile)](documenti/documentazione/doxyfile)
+* [File di configurazione di Doxygen (Doxyfile)](Doxyfile)
 ## To-Do
 Questa sezione contiene letteralmente una lista delle cose da fare (To-Do) e anche una lista di idee che ho intenzione di implementare per migliorare la repo. 
 * Creare README.md alle cartelle GPOI e Documentazione
