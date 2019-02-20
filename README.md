@@ -160,13 +160,10 @@ da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il su
 
 #### Link per comandi utili:
 [Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
-# Alunno 7
-Sono _Gallo_, ho lavorato sulla documentazione 5 insieme a _Gyppaz_. Il nostro compito era quello di creare le
-funzioni **get_head()** e **get_foot()**. Per ciò che riguarda la prima funzione abbiamo rivisto ciò che avevamo
-già fatto in classe, per ciò che riguarda la seconda funzione ci siamo dovuti documentare su internet. Ci abbiamo
-messo piu' tempo del previsto perchè sul foglio della consegna la funzione get_foot() era chiamata get_food() e 
-ciò ci ha bloccato. La relazione relativa al nostro lavoro può essere trovata e consultata nella
-cartella documenti con il nome relazione_5...
+# Alunno 7  Gallo Alessandro
+Insieme a Gyppaz, abbiamo inserito nei documenti la relazione in markdown della relazione 5.
+Successivamente nel manuale abbiamo inserito anche le due funzioni a noi assegnate in php 
+ovvero 'get_head()' e get_foot()'.
 # Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
 Sono Guerini,il mio lavoro è il numero 9. L'obbiettivo è quello di 
