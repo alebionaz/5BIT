@@ -23,24 +23,26 @@ function connetti()
 //problemi con la il metodo all'interno del while
 function get_html_table_from_query($sql)
 		{
-		$ans = "Lavori in corso...";
-		/*
-		$result = mysqli_query(connetti(),$sql);
+		//$ans = "Lavori in corso...";
+		
+		//$result = mysqli_query($mysqli,$sql);
+		$resutl = $mysqli->query($sql);
 
-		echo "<table>
+		$ans = "<table>
 		<tr>
 		<th>Nome</th>
 		<th>Marca</th>
 		<th>Prezzo</th>
 		</tr>";
-		while($row = mysqli_fetch_array($result)) {
-			echo "<tr>";
-			echo "<td>" . $row['modello'] . "</td>";
-			echo "<td>" .  $row['marca'] .  "</td>";
-			echo "<td>" . "€ " . $row['prezzo'] .  "</td>";
-			echo "</tr>";
+		
+		while($row = $result->fetch_assoc()) {
+			$ans .= "<tr>" .
+			 "<td>" . $row['modello'] . "</td>" .
+			 "<td>" .  $row['marca'] .  "</td>" .
+			 "<td>" . "€ " . $row['prezzo'] .  "</td>" .
+			 "</tr>";
 		}
-		echo "</table>";*/
+		$ans .= "</table>";
 		return $ans;
 		}
 
