@@ -39,13 +39,13 @@ git push origin master
 * [Sintassi di base](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 # Alunno 1
-Adamo Elia lavoro per il database, in questo momento mi sto occupando della connessione al server.
+Adamo Elia lavoro per il database.
+Sto aiutato Raffa nei test di connessione e raccolta dei vari comandi.
 
-Ho aiutato Raffa nei test di connessione e raccolta comandi.
+##Per connettersi al database: 
+$ mysql -h 192.168.21.100(+ numero di registro) -u user -ppass documentazione.
 
-Per connettersi al database tutte le informazioni si potranno trovare da Raffa
-
-Se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa
+(se si hanno problemi di accesso al server chiedere al sottscritto o a Raffa).
 
 # Alunno 2, [GIT Master](#git-master)
  Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di **maintainer**.
