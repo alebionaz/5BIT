@@ -144,21 +144,13 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
 
-Come inizializzare una repository .
+[Analisi di Git](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
 
-Quali comandi usare per uso ordinario .
+Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
 
-Come creare un .gitclone .
-
-Come creare la tua GPG Key .
-
-Quali comandi usare per avere i commit verificati .
-
-Salvare le credenziali .
-
-Inoltre tutte le relazioni a riguardo sono reperibili nella cartella documenti.
+[Manuale Git](https://github.com/simonemastella/5BIT/blob/master/documenti/MANUALE_GIT.odt)
 # Alunno 6
 Sono **Fabrizi** e lavoro per la documentazione (n°7).
 Il mio obiettivo è quello di creare una documentazione e un manuale che possa essere utile a tutta la classe 
@@ -221,6 +213,9 @@ tutti i successivi file della documentazione (in markdown) dovranno essere prese
 ```
 $ doxygen doxyfile
 ```
+## Visualizzare la documentazione
+Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
+
 # Alunno 11
 Ciao! Sono l'alunno **Gabriele Marchesano**
 ## Sono un Web Master
@@ -233,9 +228,6 @@ Il mio lavoro consiste nell'immaginare un ipotetico sito web, strutturato con i 
 ### In questo momento siamo in attesa dei creatori delle funzioni in php per rendere più omogeneo il sito.
 
 #### Software utilizzato: Bootstrap.
-
-## Visualizzare la documentazione
-Per visualizzare l'effettiva lista della documentazione aprire la pagina web _documenti/documentazione/html/index.html_ e procedere su "*related pages*" oppure utilizzare lo strumento di ricerca nella navbar.
 
 # Alunno 12, Simone Mastella
 Ciao, sono l'alunno **Simone Mastella**.
@@ -300,7 +292,7 @@ ciao sono Uva e mi è stato assegnato il compito di gestire la connessione tra i
 ho creato un file .php di esempio che si collega ad un database e sta in attesa delle richieste del client.
 ## Lato client
 ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
-# Alunno 21
+# Alunno 21 
 Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli autoincrement per le chiavi virtuali.
 # Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
