@@ -162,7 +162,7 @@ da sorgenti di vari linguaggi di programmazione popolari. Dopo aver capito il su
 [Commentare e Documentare con Doxygen](http://www.lotar.altervista.org/wiki/programming/php-and-doxygen)
 # Alunno 7  Gallo Alessandro
 Insieme a Gyppaz, abbiamo inserito nei documenti la relazione in markdown della relazione 5.
-Successivamente nel manuale abbiamo inserito anche le due funzioni a noi asswegnate in php 
+Successivamente nel manuale abbiamo inserito anche le due funzioni a noi assegnate in php 
 ovvero 'get_head()' e get_foot()'.
 # Alunno 8
 Sono Guerini,il mio lavoro è connettere il Db a libreoffice.
