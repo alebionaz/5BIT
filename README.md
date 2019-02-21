@@ -1,5 +1,4 @@
-﻿
-Materiale per la classe 5bit AS 2018-2019 (I. Manzetti - Aosta)
+﻿Materiale per la classe 5bit AS 2018-2019 (I. Manzetti - Aosta)
 =================
 # Clonare il repository
 Da fare solo una volta.
@@ -50,6 +49,8 @@ $ mysql -h 192.168.21.100(+ numero di registro) -u user -ppass documentazione.
 # Alunno 2, [GIT Master](#git-master)
  Principalmente mi occupo di gestire il corretto funzionamento e l'ordine generale della repo, aggiungendo migliorie, documentando ciò che serve e sistemando i commit errati ma quando necessario, risolvo i problemi riscontrati dagli altri contributors nello svolgimento dei loro compiti. In pratica sono una specie di **maintainer**.
 ## Info Utili
+### Indice Generale
+[[TOC]]
 ### Struttura Repo
 Lo schema seguente mostra una struttura semplificata con solo le directory significative della repo, in modo da mostrare quali file sono contenuti in ogni directory.
 ```
