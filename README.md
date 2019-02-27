@@ -40,7 +40,11 @@ git push origin master
 
 # 4. Alunno 1
 Adamo Elia lavoro per il database.
-Sto aiutato Raffa nei test di connessione e raccolta dei vari comandi.
+Ho aiutato Raffa nei test di connessione e raccolta dei vari comandi e
+ho cercato anche vari modi per creare degli eventuali backup del database in futuro.
+Molte altre informazioni sul lavoro svolto si potranno trovare su public_html/git/5BIT/documenti/documentazione/
+dove è stato scritto il lavoro svolto per creare il database(ancora in fase di sviluppo) ed altre informazioni
+utili agli utenti e agli host.
 
 ## 4.1. Per connettersi al database: 
 $ mysql -h 192.168.21.100(+ numero di registro) -u user -ppass documentazione.
