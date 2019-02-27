@@ -39,7 +39,6 @@ Con il comando Dump è possibile creare un Backup di un database specifico.
 
 
  > "**--single-transaction**" 
-
  Specifica che il comando eseguirà il backup di solo un determinato database.
  
  > "**--quick**" 
