@@ -244,11 +244,11 @@ Ciao sono Bionaz.
 # 7. Alunno 4
 Cecilia Corbara, 11 DB e form
 # 8. Alunno 5
-Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione (per visualizzarla cliccare sulla voce View Raw):
 
 [Analisi di Git](https://github.com/simonemastella/5BIT/blob/master/documenti/relazione_6git_20190109.odt)
 
-Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
+Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente (per visualizzarla cliccare sulla voce View Raw):
 
 [Manuale Git](https://github.com/simonemastella/5BIT/blob/master/documenti/MANUALE_GIT.odt)
 # 9. Alunno 6
