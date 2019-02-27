@@ -244,11 +244,11 @@ Ciao sono Bionaz.
 # 7. Alunno 4
 Cecilia Corbara, 11 DB e form
 # 8. Alunno 5
-Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione (per visualizzarla cliccare sulla voce View Raw):
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
 
-[Analisi di Git](https://github.com/simonemastella/5BIT/blob/master/documenti/relazione_6git_20190109.odt)
+[Analisi di Git](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
 
-Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente (per visualizzarla cliccare sulla voce View Raw):
+Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
 
 [Manuale Git](https://github.com/simonemastella/5BIT/blob/master/documenti/MANUALE_GIT.odt)
 # 9. Alunno 6
@@ -391,7 +391,7 @@ ciao sono Uva e mi è stato assegnato il compito di gestire la connessione tra i
 ho creato un file .php di esempio che si collega ad un database e sta in attesa delle richieste del client.
 ## 23.2. Lato client
 ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
-# 24. Alunno 21 
+# 24. Alunno 21 Jacopo Vergaro
 Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli 
 increment per le chiavi virtuali.
 # 25. Alunno 22 (Il secchione)
