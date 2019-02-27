@@ -48,5 +48,14 @@ ALTER TABLE comandi ADD FOREIGN KEY (id_argomento) REFERENCES argomenti (id_argo
 
 ALTER TABLE esempi ADD FOREIGN KEY (id_comando) REFERENCES comandi (id_comando);
 
+-- appunti vari
+-- https://www.linode.com/docs/databases/mysql/use-mysqldump-to-back-up-mysql-or-mariadb/
+-- comandi shell
+
+-- -mysqldump -u username -p db1 --single-transaction --quick --lock-tables=false > db1-backup-$(date +%F).sql
+
+
+
+
 
 
