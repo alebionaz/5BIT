@@ -392,8 +392,8 @@ ho creato un file .php di esempio che si collega ad un database e sta in attesa 
 ## 23.2. Lato client
 ho creato una pagina di esempio che invia la richiesta al server menzionato prima e visualizza i dati ricevuti in risposta.
 # 24. Alunno 21 Jacopo Vergaro
-Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante,mi devo assicurare che i  miei compagni che hanno da creare il database creino e pubblichino un file con i comandi per creare il database. Sono partito dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli 
-increment per le chiavi virtuali.
+Ciao sono Jacopo,ho lavorato sulla documentazione numero 2 insieme a Scarpante. Insieme ai miei compagni siamo  partiti dal file ferret (consegnato dal prof) e abbiamo modificato tutti i campi opportuni per ottimizzare il lavoro.Per fare diverse prove abbiamo creato un database di prova su Mariadb.Abbiamo modificato gli 
+increment per le chiavi virtuali e abbiamo eseguito delle piccole modifiche allo schema SQL	. Abbiamo anche inserito alcuni esempi da cui prendere esempio per poi popolare completamente il database. Ci siamo anche documentati sul comando DUMP, per creare il backup del database creato, e anche sul comando DROP (utilizzato per eliminare le tabelle inserite in un database) dove richiediamo massima cautela nel suo utilizzo.
 # 25. Alunno 22 (Il secchione)
 Ciao, sono l'alunno preferito dal proff. Faccio tutto quello che mi chiede e provo a migliorarmi di continuo.
 Per questo lavoro ho avuto il compito di rompere le scatole a tutti i miei compagni.
