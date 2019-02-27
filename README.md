@@ -246,7 +246,7 @@ Cecilia Corbara, 11 DB e form
 # 8. Alunno 5
 Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
 
-[Analisi di Git](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
+[Analisi di Git](https://github.com/simonemastella/5BIT/blob/master/documenti/relazione_6git_20190109.odt)
 
 Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
 
