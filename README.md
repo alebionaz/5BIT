@@ -244,10 +244,15 @@ Ciao sono Bionaz.
 # 7. Alunno 4
 Cecilia Corbara, 11 DB e form
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Alunno 5
 Ciao sono Edoardo Di Vita, gay, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
 
 Come inizializzare una repository .
+=======
+# 8. Alunno 5
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
+>>>>>>> 37de6e2795517a1a25b187b3c90b2a34b74a7938
 =======
 # 8. Alunno 5
 Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
@@ -352,9 +357,11 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 # 16. Alunno 13
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
 * [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
+
 # 17. Alunno 14
 Ciao, sono Petrocca Fabio addetto alla grafica.
 Sto lavorando al logo.
+
 # 18. Alunno 15 Edith Piffari
 Ciao sono Edith mi sto occupando del lavoro **4 PHP database**.
 ## 18.1. Il mio lavoro

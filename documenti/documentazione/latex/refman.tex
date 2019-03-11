@@ -1,10 +1,9 @@
-\documentclass[twoside]{book}
+\let\mypdfximage\pdfximage\def\pdfximage{\immediate\mypdfximage}\documentclass[twoside]{book}
 
 % Packages required by doxygen
 \usepackage{fixltx2e}
 \usepackage{calc}
 \usepackage{doxygen}
-\usepackage[export]{adjustbox} % also loads graphicx
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
@@ -14,6 +13,7 @@
 \usepackage{textcomp}
 \usepackage[nointegrals]{wasysym}
 \usepackage[table]{xcolor}
+\usepackage{ifpdf,ifxetex}
 
 % NLS support packages
 \usepackage[italian]{babel}
@@ -35,6 +35,13 @@
 }
 \newcommand{\+}{\discretionary{\mbox{\scriptsize$\hookleftarrow$}}{}{}}
 
+% Arguments of doxygenemoji:
+% 1) ':<text>:' form of the emoji, already "LaTeX"-escaped
+% 2) file with the name of the emoji without the .png extension
+% in case image exist use this otherwise use the ':<text>:' form
+\newcommand{\doxygenemoji}[2]{%
+  \IfFileExists{./#2.png}{\raisebox{-0.1em}{\includegraphics[height=0.9em]{./#2.png}}}{#1}%
+}
 % Page & text layout
 \usepackage{geometry}
 \geometry{%
@@ -49,7 +56,9 @@
 \hbadness=750
 \setlength{\emergencystretch}{15pt}
 \setlength{\parindent}{0cm}
-\setlength{\parskip}{3ex plus 2ex minus 2ex}
+\newcommand{\doxynormalparskip}{\setlength{\parskip}{3ex plus 2ex minus 2ex}}
+\newcommand{\doxytocparskip}{\setlength{\parskip}{1ex plus 0ex minus 0ex}}
+\doxynormalparskip
 \makeatletter
 \renewcommand{\paragraph}{%
   \@startsection{paragraph}{4}{0ex}{-1.0ex}{1.0ex}{%
@@ -93,13 +102,22 @@
 \setcounter{secnumdepth}{5}
 \makeindex
 
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
 % Hyperlinks (required, but should be loaded last)
-\usepackage{ifpdf}
 \ifpdf
   \usepackage[pdftex,pagebackref=true]{hyperref}
 \else
-  \usepackage[ps2pdf,pagebackref=true]{hyperref}
+  \ifxetex
+    \usepackage[pagebackref=true]{hyperref}
+  \else
+    \usepackage[ps2pdf,pagebackref=true]{hyperref}
+  \fi
 \fi
+
 \hypersetup{%
   colorlinks=true,%
   linkcolor=blue,%
@@ -115,6 +133,9 @@
 \usepackage{caption}
 \captionsetup{labelsep=space,justification=centering,font={bf},singlelinecheck=off,skip=4pt,position=top}
 
+\usepackage{etoc}
+\etocsettocstyle{\doxytocparskip}{\doxynormalparskip}
+\renewcommand{\numberline}[1]{#1~}
 %===== C O N T E N T S =====
 
 \begin{document}
@@ -130,7 +151,7 @@
 \begin{center}%
 {\Large 5 B\+IT \\[1ex]\large 1 }\\
 \vspace*{1cm}
-{\large Generato da Doxygen 1.8.13}\\
+{\large Generato da Doxygen 1.8.15}\\
 \end{center}
 \end{titlepage}
 \clearemptydoublepage
@@ -141,17 +162,15 @@
 \hypersetup{pageanchor=true}
 
 %--- Begin generated contents ---
-<<<<<<< HEAD
-=======
-\chapter{Intestazione 1}
-\label{md_documenti_documentazione_prova}
-\Hypertarget{md_documenti_documentazione_prova}
-\input{md_documenti_documentazione_prova}
-\chapter{relazione\+\_\+fabrizi}
+\chapter{Documentazione database raffa(in fase di sviluppo)}
+\label{md_documenti_documentazione_documentazione_database}
+\Hypertarget{md_documenti_documentazione_documentazione_database}
+\input{md_documenti_documentazione_documentazione_database}
+\chapter{Relazione Fabrizi}
 \label{md_documenti_documentazione_relazione_fabrizi}
 \Hypertarget{md_documenti_documentazione_relazione_fabrizi}
 \input{md_documenti_documentazione_relazione_fabrizi}
-\chapter{relazione\+\_\+marchesano}
+\chapter{Relazione Marchesano}
 \label{md_documenti_documentazione_relazione_marchesano}
 \Hypertarget{md_documenti_documentazione_relazione_marchesano}
 \input{md_documenti_documentazione_relazione_marchesano}
@@ -159,10 +178,18 @@
 \label{md_documenti_documentazione_relazione_piffari}
 \Hypertarget{md_documenti_documentazione_relazione_piffari}
 \input{md_documenti_documentazione_relazione_piffari}
+\chapter{documentazione database raffa}
+\label{md_documenti_documentazione_database}
+\Hypertarget{md_documenti_documentazione_database}
+\input{md_documenti_documentazione_database}
 \chapter{P\+I\+C\+C\+H\+IO}
 \label{md_documenti_PICCHIO}
 \Hypertarget{md_documenti_PICCHIO}
 \input{md_documenti_PICCHIO}
+\chapter{Manuali da stampare in formato cartaceo per esame e compiti in classe}
+\label{md_manuali_README}
+\Hypertarget{md_manuali_README}
+\input{md_manuali_README}
 \chapter{R\+E\+A\+D\+ME}
 \label{md_manuali_sito_css_README}
 \Hypertarget{md_manuali_sito_css_README}
@@ -191,21 +218,20 @@
 \label{md_manuali_sito_sub_README}
 \Hypertarget{md_manuali_sito_sub_README}
 \input{md_manuali_sito_sub_README}
->>>>>>> 84f8508014ee42dd83d11f39466163dc4de2efa6
 \chapter{Materiale per la classe 5bit AS 2018-\/2019 (I. Manzetti -\/ Aosta)}
 \label{md_README}
 \Hypertarget{md_README}
 \input{md_README}
-<<<<<<< HEAD
-=======
 \chapter{Indice dei file}
 \input{files}
 \chapter{Documentazione dei file}
-\input{prova_8md}
+\input{documentazione_2documentazione__database_8md}
+\input{documentazione__database_8md}
 \input{relazione__fabrizi_8md}
 \input{relazione__marchesano_8md}
 \input{relazione__piffari_8md}
 \input{PICCHIO_8md}
+\input{manuali_2README_8md}
 \input{manuali_2sito_2css_2README_8md}
 \input{manuali_2sito_2etc_2README_8md}
 \input{manuali_2sito_2images_2README_8md}
@@ -214,10 +240,10 @@
 \input{manuali_2sito_2README_8md}
 \input{manuali_2sito_2sub_2README_8md}
 \input{README_8md}
+\input{esempio__di__form_8php}
 \input{config-template_8php}
 \input{html_8php}
 \input{test__html_8php}
->>>>>>> 84f8508014ee42dd83d11f39466163dc4de2efa6
 %--- End generated contents ---
 
 % Index
@@ -225,7 +251,7 @@
 \newpage
 \phantomsection
 \clearemptydoublepage
-\addcontentsline{toc}{chapter}{Indice}
+\addcontentsline{toc}{chapter}{\indexname}
 \printindex
 
 \end{document}

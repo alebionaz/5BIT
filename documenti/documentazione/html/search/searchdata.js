@@ -1,15 +1,10 @@
 var indexSectionsWithContent =
 {
-<<<<<<< HEAD
-  0: "m",
-  1: "m"
-=======
-  0: "$chimprst",
-  1: "chprt",
-  2: "i",
+  0: "$cdehimprst",
+  1: "cdehprt",
+  2: "it",
   3: "$",
-  4: "imprs"
->>>>>>> 84f8508014ee42dd83d11f39466163dc4de2efa6
+  4: "dmprs"
 };
 
 var indexSectionNames =
