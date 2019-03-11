@@ -5,7 +5,6 @@
 -- By: Picchiottino Roberto per 5bit as 2018-2019
 --
 -- Using output format: mysql
-
 -- PER FARE PULIZIA. occhio!
 -- DROP TABLE esempi; DROP TABLE comandi; DROP TABLE argomenti; 
 CREATE TABLE argomenti (
