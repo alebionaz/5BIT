@@ -59,7 +59,7 @@ function get_html_table_from_query($sql)
 			while($row=$result->fetch_assoc())
 				{
 				$ans.="<tr>";
-				for($j=0;$j<$array->count;$j++)
+				for($j=0;$j<count($array);$j++)
 					{
 					$ans.="<td>";
 					$ans.=$row[$array[$j]]." ";
@@ -68,8 +68,8 @@ function get_html_table_from_query($sql)
 				$ans.="</tr>";
 				}
 			$ans.="</table>";
-			return $ans;
 			}
+		return $ans;
 		}
 
 ?>
