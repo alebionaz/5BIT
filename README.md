@@ -357,9 +357,9 @@ Per questo lavoro ho avuto il compito di numero 6, cioè di gestire git e una su
 # 16. Alunno 13 Christopher Mezzomo
 Ciao, sono Chirstopher, sono **12 GANTT e gestione degli incarichi**
 ## 16.1. Il mio incarico
-Il mio incarico è quello di creare il diagramma di GANTT che rappresenti i vari incarichi con le risorse assegnate ad essi.
-Il diagramma è salvato in documenti/diagramma_di_gantt.planner
-Ed è stato esportato come HTML in documenti/diagramma_di_gantt.planner
+Il mio incarico è quello di creare il diagramma di GANTT che rappresenti i vari incarichi con le risorse assegnate ad essi.  
+Il diagramma è salvato in documenti/diagramma_di_gantt.planner.  
+Ed è stato esportato come HTML in documenti/diagramma_di_gantt.planner.  
 E possibili visualizzare la pagina HTML con htmlpreview.github.io utilizzando il collegamento sottostante. 
 * [Il Diagramma di GANTT](http://htmlpreview.github.io/?https://github.com/simonemastella/5BIT/blob/master/documenti/diagramma_di_gantt.html)
 
