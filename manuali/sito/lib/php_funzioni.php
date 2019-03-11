@@ -29,8 +29,8 @@ function get_html_table_from_query($sql,$extratable="")
 	//$ans = "Lavori in corso...";
 	
 	//$result = mysqli_query($mysqli,$sql);
-	$result = $mysqli->query($sql);
 	$ans="";
+	$result = $mysqli->query($sql);
 	if($result->num_rows>0)
 		{
 		$ans="<table $extratable><thead><tr>";
@@ -62,7 +62,7 @@ function get_select_from_query($conn,$sql,$fileajax,$nomefunzioneajax="")
 	include_once "html.php";
 	$ans="";
 	$result=$mysqli->query($sql);
-	$campo=$result->fetch_fields()[1]->name;
+	$campo=$result->fetch_fields()[0]->name;
 	if($nomefunzioneajax!="")
 	{
 		$nomefunzioneajax="onChange=$nomefunzioneajax(this.value,\"".$fileajax."\")";
