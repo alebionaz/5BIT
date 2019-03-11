@@ -26,8 +26,8 @@ function get_html_table_from_query($sql)
 		//$ans = "Lavori in corso...";
 		
 		//$result = mysqli_query($mysqli,$sql);
-		$resutl = $mysqli->query($sql);
-
+		$result = $mysqli->query($sql);
+		/*
 		$ans = "<table>
 		<tr>
 		<th>Nome</th>
@@ -44,6 +44,32 @@ function get_html_table_from_query($sql)
 		}
 		$ans .= "</table>";
 		return $ans;
+		*/
+		$ans="";
+		if($result->num_rows>0)
+			{
+			$ans="<table><tr>";
+			$array=array();
+			for($i=0;$i<$result->field_count;$i++)
+				{
+				$array[] = $result->fetch_fields()[$i]->name;
+				$ans.="<th>".$result->fetch_fields()[$i]->name."</th>";
+				}
+			$ans.="</tr>";
+			while($row=$result->fetch_assoc())
+				{
+				$ans.="<tr>";
+				for($j=0;$j<$array->count;$j++)
+					{
+					$ans.="<td>";
+					$ans.=$row[$array[$j]]." ";
+					$ans.="</td>";
+					}
+				$ans.="</tr>";
+				}
+			$ans.="</table>";
+			return $ans;
+			}
 		}
 
 ?>
