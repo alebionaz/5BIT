@@ -54,7 +54,7 @@ Ciao sono Bionaz.
 # Alunno 4
 Cecilia Corbara, 11 DB e form
 # Alunno 5
-Ciao sono Edoardo Di Vita, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+Ciao sono Edoardo Di Vita, gay, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
 
 Come inizializzare una repository .
 
