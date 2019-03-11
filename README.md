@@ -246,21 +246,11 @@ Cecilia Corbara, 11 DB e form
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Alunno 5
-Ciao sono Edoardo Di Vita, gay, 6 git master,cioè di gestire git e una sua repository condivisa. In primo luogo abbiamo cercato su internet: 
+Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione (per visualizzarla cliccare sulla voce View Raw):
 
-Come inizializzare una repository .
-=======
-# 8. Alunno 5
-Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
->>>>>>> 37de6e2795517a1a25b187b3c90b2a34b74a7938
-=======
-# 8. Alunno 5
-Ciao sono **Edoardo Di Vita**, 6 git master, mi occupo della gestione di git. In primo luogo abbiamo analizzato il funzionamento di Git confrontandolo con validi rivali come BitBucket e GitLab. Nostante i loro punti di forza, presentano molteplici difetti che abbiamo elencato nella seguente relazione:
->>>>>>> 37de6e2795517a1a25b187b3c90b2a34b74a7938
+[Analisi di Git](https://github.com/simonemastella/5BIT/blob/master/documenti/relazione_6git_20190109.odt)
 
-[Analisi di Git](https://gist.github.com/simonemastella/1792e8dd3cc8a8878825a4d2df676300)
-
-Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente:
+Inoltre abbiamo creato un manuale con i comandi principali per aiutare gli utenti alle prime armi. Il manuale in questione è il seguente (per visualizzarla cliccare sulla voce View Raw):
 
 [Manuale Git](https://github.com/simonemastella/5BIT/blob/master/documenti/MANUALE_GIT.odt)
 # 9. Alunno 6
