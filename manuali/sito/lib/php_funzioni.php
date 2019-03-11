@@ -78,22 +78,17 @@ function get_select_from_query($conn,$sql,$fileajax)
 	$ans="";
 	$result=$mysqli->query($sql);
 	$campo=$result->fetch_fields()[1]->name;
+	$funzioneajax="";
 	/*
-	$ans="<select onChange=ajax(this.value,\"".$fileajax."\")>";
-	$ans.="<option value=\"\">Seleziona ".$campo."</option>";
-	$temp="SELECT ".$campo." FROM ".$entita;
-	while($row=mysqli_fetch_assoc($result))
-	{
-		$ans.="<option value=\"".$row[$campo]."\">".$row[$campo]."</option>";
-	}
-	$ans.="</select>";*/
-	$funzioneajax=""
+	 *! da decommentare e modificare nome_funzione con il nome della funzione javascript che usa ajax quando creata
+	**/
+	//$funzioneajax="onChange=NOME_FUNZIONE(this.value,\"".$fileajax."\")>"";
 	$ans=incapsula("Seleziona ".$campo,"option",);
 	while($row=$result->fetch_assoc())
 		{
 		$ans.=incapsula($row[$campo],"option","value=\"".$row[$campo."\"");
 		}
-	$ans=incapsula($ans,"select",)
+	$ans=incapsula($ans,"select",$funzioneAjax);
 	return $ans;
 }
 ?>
