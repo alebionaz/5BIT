@@ -6,4 +6,4 @@
 https://github.com/simonemastella/12_mastella
 * vai sulla tua repo privata e spostati nella sezione **settings / contributors** e invita l utente **rpicchio**(il prof)
 
-https://github.com/simonemastella/12_mastella/activations
+https://github.com/simonemastella/12_mastella/invitations
