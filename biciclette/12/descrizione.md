@@ -4,6 +4,6 @@
 * all interno di quella cartella crea una file "descrizione.md"
 * e copia il link per poter raggiungere la tua repo privata, ad esempio
 https://github.com/simonemastella/12_mastella
-* vai sulla tua repo privata e spostati nella sezione **settings / collaborators u** e invita l utente **rpicchio**(il prof)
+* vai sulla tua repo privata e spostati nella sezione **settings / collaborators ** e invita l utente **rpicchio**(il prof)
 
 https://github.com/simonemastella/12_mastella/invitations
