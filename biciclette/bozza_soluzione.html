@@ -1,0 +1,108 @@
+<h1 id="bozza-di-soluzione-simulazione-esame-del-2822019">[Bozza di] Soluzione simulazione esame del 28/2/2019</h1>
+<h2 id="fonte-della-prova">Fonte della prova</h2>
+<p>La prova è stata <a href="http://www.istruzione.it/esame_di_stato/esempi/201819/IstitutiTecnici.htm">pubblicata sul sito del ministero</a>.</p>
+<ul>
+<li><a href="http://www.istruzione.it/esame_di_stato/esempi/201819/Istituti%20tecnici/Pdf/ITIA-Esempio1.pdf">Esempio 1 (Febbraio 2019) Pdf</a></li>
+<li><a href="http://www.istruzione.it/esame_di_stato/esempi/201819/Istituti%20tecnici/Word/ITIA-Esempio1.docx">Esempio 1 (Febbraio 2019) Word</a></li>
+</ul>
+<h2 id="analisi-del-testo-e-appunti-vari">Analisi del testo e appunti vari</h2>
+<p>Si evidenziano/sottolineano le parti del testo che si ritengono interessanti e significative (sul cartaceo).</p>
+<h3 id="infrastruttura-informatica">Infrastruttura informatica</h3>
+<p>Un server per ogni stazione che raccoglie e coordina le operazioni. Il server di stazione aggiorna il server centrale mediante connessione ad internet (eventuale vpn per aumentare la sicurezza). Il server di stazione deve verificare che il cliente sia solvibile prima di aprire lo slot.</p>
+<p>Potrebbe bastare verificare che esista una prenotazione ed eventualmente fare la prenotazione insieme al ritiro del velocipede.</p>
+<p>I software potrebbero essere gestiti mediante sistema docker opportuno, utilizzandolo si garantisce l’indipendenza dal sistema operativo installato e la scalabilità del sistema. Anche le configurazioni, i ripristini e l’amministrazione sarebbe semplificata.</p>
+<h4 id="applicazioni-previste">Applicazioni previste</h4>
+<ul>
+<li>sito internet per clienti</li>
+<li>sito promozionale</li>
+<li>sito per amministrazione</li>
+<li>app per smartphone per clienti</li>
+<li>database</li>
+<li>log e backup</li>
+<li>servizio di ticket per guasti e segnalazioni (es. manutenzione bicicletta)</li>
+</ul>
+<h4 id="server-di-stazione">Server di stazione</h4>
+<p>Software: Pacchetto docker</p>
+<ul>
+<li>controllo slot</li>
+<li>comunicazione con server centrale</li>
+</ul>
+<h4 id="server-centrale">Server centrale</h4>
+<p>Software: Pacchetto docker</p>
+<ul>
+<li>database SQL MariaDB</li>
+<li>server web apache + php</li>
+</ul>
+<h3 id="sicurezza">Sicurezza</h3>
+<p>Il testo chiede di memorizzare il numero di carta di credito valida. Vista la delicatezza di tale dato si ritiene opportuno registrare il dato su entità separata. Si consiglia comnuque di codificare i dati prima della memorizzazione nel database. La codifica dovrebbe essere tale da permettere la decodifica ai soli operatori (software) autorizzati. Per motivi di tempo tale implementazione non viene esplicitata nel presente documento ma deve essere affrontata prima di realizzare un sistema che richieda la memorizzazione di tali dati.</p>
+<p>Una alternativa che risolverebbe il problema del pagamento delle tariffe e che non richiede la memorizzazione di dati sensibili potrebbe passare attraverso lo studio si uno smart contract da far funzionare su blockchain ethereum o simile.</p>
+<p>Prevedere un servizio di videosorveglianza.</p>
+<p>Prevedere mancanza connessione dalla stazione alla centrale. Memorizzare gli eventi e inviarli appena possibile.</p>
+<p>Serve una sincronizzazione del tempo.</p>
+<p>Prevedere la gestione sicura delle copie di backup del database.</p>
+<p>Prevedere un sistema di log che permettano la ricostruzione degli eventi in caso di contestazioni da parte degli utenti.</p>
+<h3 id="continuità-del-servizio">Continuità del servizio</h3>
+<ul>
+<li>opportuni sistemi di backup
+<ul>
+<li>delle connesioni</li>
+<li>dell’alimentazione</li>
+<li>hardware In caso di problemi di connessione tra stazione e centrale l’utente deve poter affittare la bicicletta. Per evitare truffe bisognerebbe controllare che l’utente non sia segnalato come problematico (carta di credito non valida o altre problematiche). Tale funzionalità non viene implementata.</li>
+</ul></li>
+</ul>
+<h3 id="modello-concettuale">Modello concettuale</h3>
+<p>Si utilizza ferret per realizzare lo schema concettuale.</p>
+<h4 id="utenti">Utenti</h4>
+<p>Devono avere anche i recapiti per invio della documentazione. Per semplificare si utilizza un’unica entità anche se sarebbe opportuno separare i recapiti in tabelle differenti.</p>
+<p>Si considera il servizio fruibile ai soli privati rimandando la gestione delle azienda ad una fase successiva. Il CF viene gestito con 32 Byte in quanto si vuole consentire l’inserimento anche in presenza di eventuali problematiche.</p>
+<p>Con il CF andrebbero memorizzati anche i dati necessari a ricavarlo (data e luogo di nascita, sesso), non si implementa tale funzionalità per problemi di tempo a disposizione.</p>
+<p>Per identificarli nelle applicazioni web si utilizza la coppia email/password. L’indirizzo mail va verificato ma la trattazione di questo aspetto esula dalla presente trattazione. La password viene memorizzata dopo aver applicato l’hash sha256, il campo è pertanto di tipo <em>char[32]</em>.</p>
+<h4 id="smart-card">Smart Card</h4>
+<p>Anche le smart card verranno memorizzate su entità separata. Si inserisce la data di invio e la data di scadenza. Il codice registrato su tale carta viene memorizzato nel campo sc_pin di tipo char(16) al fine di consentire 256^16 codici differenti. Per garrantire la sicurezza sarebbe opportuno studiare un sistema a chiave privata/pubblica sfruttando le caratteristiche della smart card. Tale approccio esula dagli scopi della presente trattazione (forse nella parte di sistemi e reti?). Si suppone semplicemente che la smart card sia l’unica in grado di fornire tale codice al sistema informatico.</p>
+<h4 id="carta-di-credito">Carta di credito</h4>
+<p>La gestione della memorizzazione dei numeri di una carta di credito è una operazione delicata e rischiosa. I pericoli che si corrono nel memorizzare tali dati sono parecchi e vanno affrontati con cura e attenzione.</p>
+<p>Bisogna predisporre una informativa sulla privacy e verificare di rispettare tutte le leggi in materia come il recente GDPR. Tale problematica non viene affrontata.</p>
+<p>Per limitare le problematiche di cui sopra, si decide di memorizzare le carte di credito in una entità separata. Sarà possibile limitare i permessi da SQL in modo più flessibile.</p>
+<p>Mese e anno di scadenza vengono gestiti con due interi al posto di una data.</p>
+<p>Nel campo <em>log_creazione</em> inseriamo i dati necessari ad identificare l’utente che l’ha inserita, indirizzo IP, data, ora e ogni altro dato si riterrà utile memorizzare al fine di tutelare sia la privacy degli utenti che la sicurezza del sistema informatico.</p>
+<h4 id="biciclette">Biciclette</h4>
+<p>campo “rfid”: Il codice univoco memorizzato nell’RFID. Il modello: si inserisce tutto in un char tenedo conto anche della marca e di ogni altra caratteristica, andrebbe migliorata la gestione di queste informazioni normalizzando la tabella in modo opportuno, si rimanda ad altra trattazione tale adempimento. Tale pratica renderebbe anche più agevole la realizzazione del sito internet a scopo pubblicitario.</p>
+<p>rfid è una chiave candidata adatta ma si opta per creare una chiave artificiale (id) al fine di consentire la sostituzione del chip in caso di rottura o malfunzionamento oppure il riutilizzo dell’rfid in caso di smaltimento della bicicletta. Si noti che tali opzioni non sono gestite, si può <strong>considerare il campo rfid unico</strong>.</p>
+<p>Il campo codice è stato inserito per memorizzare il numero della bicicletta in modo che sia facilmente leggibile dall’utente (per poterla riconoscere agevolmente qualora sia parcheggiata con altre biciclette identiche).</p>
+<p>Prevedere un trigger per aggiornare campo slot da impostare NULL quando la bici è in giro.</p>
+<p>Al ritiro della bicicletta prevedere un servizio di segnalazione dello stato della bici, in caso di problemi il cliente potrà decidere se rifiutare la bici al fine di non essere ritenuto responsabile del degrado del mezzo. L’intervento di un operatore potrebbe risolvere eventuali diatribe prima che diventino diffficilmente documentabili. La stazione dovrebbe comunque avere un sistema di videosorveglianza.</p>
+<h4 id="stazioni">Stazioni</h4>
+<p>Per memorizzare la posizione esatta si possono usare tipi di campo specifici, sono <a href="https://mariadb.com/kb/en/library/geometry-types/">reperibili sul sito di di MariaDB</a> e richiedono approfondimenti ulteriori. Ho inserito un campo di testo “coordinate” per gestire tali dati.</p>
+<h4 id="slot">slot</h4>
+<p>E’ stata realizzata una entità slot. I campi libero e funzionante sono definiti come interi ma vengono genstiti principalmente come boolean. Libero va aggiornato con un trigger mentre funzionante serve per escludere eventuali slot difettosi dal conteggio di quelli disponibili. Anche eventuali bici intrappolate da malfunzionamenti.</p>
+<h4 id="noleggio-ritiro-e-restituzione">Noleggio (ritiro e restituzione)</h4>
+<p>Supponendo di limitare ai soli due eventi del noleggio (ritiro e restituzione) si utilizza un’unica entità con i campi opportuni. Sebbene la traccia porti a consigliare la realizzazione di una entità eventi nella quale registrare gli eventi singoli, si ritiene che tale approccio semplifichi la trattazione delle interrogazioni.</p>
+<p>Potrebbe risultare interessante prevedere anche la prenotazione di una bicicletta ad una certa stazione al fine di non arrivare “troppo tardi” alla stazione per scoprire che le biciclette “sono terminate”. L’importo si può calcolare considerando le tre date: prenotazione, ritiro e consegna. La tariffazione dovrebbe dipendere anche dal modello di bicicletta noleggiato e dallo stato di conservazione alla consegna e al ritiro.</p>
+<p>La consegna potrebbe essere gestita senza richiedere l’utilizzo della smart card. Si chiude il noleggio dell’utente che aveva in carico la bicicletta restituita. L’utente andrebbe avvisato della restituzione: mediante mail o altro messaggio push.</p>
+<p>Si potrebbe prevedere una sorta di prepagato e un sistema per garantire la società da eventuali furti. La carta di credito può risolvere il problema del furto (o smarrimento) della bicicletta.</p>
+<h3 id="modello-logico">Modello logico</h3>
+<p>Ferret fatica a gestire la doppia relazione tra noleggio e stazione (per ritiro e consegna).</p>
+<h3 id="comandi-sql-per-creare-le-tabelle">Comandi SQL per creare le tabelle</h3>
+<p>Nell’SQL generato vanno sistemati i soliti problemi:</p>
+<ul>
+<li>PK Autoincrement per tutte le tabelle</li>
+<li>nomi campi per relazioni 1aN</li>
+<li>ferret fatica a gestire la doppia relazione tra noleggio e stazione (anche campo n_box che indica il box nel quale prelevare/inserire la bicicletta).</li>
+<li>I campi che devono essere <strong>UNIQUE</strong> vanno specificati</li>
+</ul>
+<h3 id="progetto-di-pagina-web">Progetto di pagina web</h3>
+<p>Parte da completare. Indicare gli strumenti che si intende utilizzare, bozza dell’aspetto grafico atteso, struttura delle pagine e sezione amministratore e utenti registrati. Quali framework utilizzeresti? Come tieni in considerazione l’ottimizzazione per la visualizzazione sui dispositivi mobili? Intendi hostare i framework o utilizzare una CDN?</p>
+<h4 id="a-partire-da-una-mappa">A partire da una mappa</h4>
+<p>Si vuole verificare la disponibilità di biciclette in una stazione selezionata</p>
+<h4 id="visualizzare-le-biciclette-in-uso">Visualizzare le biciclette in uso</h4>
+<p>Parte amministratore, elenco bici in uso, utente e stazione di prelievo.</p>
+<h2 id="argomenti-utili-non-ancora-affrontati">Argomenti utili non ancora affrontati</h2>
+<p>Al fine di migliorare la trattazione del tema affrontato potrebbero risultare utili i seguenti argomenti.</p>
+<h3 id="trigger">Trigger</h3>
+<p><a href="http://www.mrwebmaster.it/mysql/trigger_12151.html">Sito di approfondimento</a></p>
+<h3 id="stored-procedure">Stored procedure</h3>
+<p><a href="http://www.mrwebmaster.it/mysql/stored-procedures_12149.html">Sito di approfondimento</a></p>
+<h3 id="viste">Viste</h3>
+<p><a href="http://www.mrwebmaster.it/mysql/viste-views_12154.html">Sito di approfondimento</a></p>
+<h3 id="stored-functions">Stored Functions</h3>
+<p><a href="http://www.mrwebmaster.it/mysql/stored-functions_12150.html">Sito di approfondimento</a></p>

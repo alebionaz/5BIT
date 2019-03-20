@@ -1,0 +1,207 @@
+Biciclette
+/home/picchio/public_html/2018-2019/git/5BIT/biciclette/noleggio_bici.ger
+Picchiottino Roberto
+8
+9
+0 0 1024 1468
+7
+utenti
+226
+203
+12
+id int
+nome varchar(50)
+cognome varchar(50)
+via1 varchar(50)
+via2 varchar(50)
+cap varchar(16)
+citta varchar(32)
+stato varchar(32)
+tel varchar(50)
+email varchar(50)
+cf varchar(32)
+sha256_password char(32)
+1
+id
+3
+u_sc
+u_cc
+u_nol
+smart_card
+16
+10
+4
+id int
+data_spedizione date
+data_scadenza date
+sc_pin char(16)
+1
+id
+1
+u_sc
+credit_card
+18
+197
+7
+id int
+numero varchar(16)
+nome varchar(50)
+scadenza_mese int
+scadenza_anno int
+log_creazione text
+valida int
+1
+id
+1
+u_cc
+biciclette
+514
+250
+4
+id int
+rfid char(16)
+modello varchar(50)
+codice varchar(16)
+1
+id
+2
+nol_bici
+Contiene
+noleggi
+510
+23
+4
+id int
+data_prenotazione date
+data_ritiro date
+data_consegna date
+1
+id
+4
+ritiro
+consegna
+u_nol
+nol_bici
+slot
+899
+180
+4
+id int
+etichetta varchar(8)
+funzionante int
+libero int
+1
+id
+4
+ritiro
+consegna
+slot_stazione
+Contiene
+stazioni
+1067
+293
+3
+id int
+nome varchar(50)
+coordinate text
+1
+id
+1
+slot_stazione
+8
+u_cc
+0
+116
+119
+0
+2
+credit_card
+1
+N
+utenti
+1
+1
+u_sc
+0
+224
+72
+0
+2
+smart_card
+1
+N
+utenti
+1
+1
+ritiro
+0
+733
+68
+0
+2
+noleggi
+0
+N
+slot
+0
+1
+consegna
+0
+714
+194
+0
+2
+noleggi
+1
+N
+slot
+0
+1
+u_nol
+0
+374
+125
+0
+2
+noleggi
+1
+N
+utenti
+1
+1
+nol_bici
+0
+517
+170
+0
+2
+noleggi
+1
+N
+biciclette
+1
+1
+slot_stazione
+0
+1087
+161
+0
+2
+slot
+1
+N
+stazioni
+1
+1
+Contiene
+0
+761
+303
+0
+2
+slot
+0
+1
+biciclette
+0
+1

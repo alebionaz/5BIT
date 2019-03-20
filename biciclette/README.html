@@ -1,0 +1,44 @@
+<h1 id="appunti-per-progetto-database-noleggio-biciclette">Appunti per progetto database noleggio biciclette</h1>
+<h2 id="simulazione-tema-desame">Simulazione tema d’esame</h2>
+<p><a href="./bozza_soluzione.md">Vedere il file con la bozza di soluzione</a></p>
+<h2 id="compiti-da-svolgere-per-ogni-alunno">Compiti da svolgere per ogni alunno</h2>
+<p>Ogni alunno è tenuto a:</p>
+<h3 id="crea-un-archivio-github-riservato">Crea un archivio github riservato</h3>
+<p>Per tutelare la privacy crea un archivio github e insercsi l’utente github <em>rpicchio</em> come collaboratore.</p>
+<h3 id="crea-una-dir-di-lavoro-personale">Crea una dir di lavoro personale</h3>
+<ul>
+<li>creare una directory che inizi con nn.nome dove nn va sostituito con le due cifre del numero di registro (es 01.tizio)</li>
+<li>in ogni directory posizionare i documenti richiesti senza modificare gli originali</li>
+</ul>
+<h3 id="crea-un-file-readme.md">Crea un file README.md</h3>
+<p>Inserisci le istruzioni e i commenti che ritieni opportuni.</p>
+<h3 id="crea-un-database">Crea un database</h3>
+<p>Riporta il codice SQL utilizzato e fai le corrette considerazioni sull’utente che deve eseguire i comandi.</p>
+<h3 id="crea-gli-utenti-del-database-in-grado-di-gestire-i-dati">Crea gli utenti del database in grado di gestire i dati</h3>
+<p>Indica i comandi utilizzati e l’utente che li esegue.</p>
+<h3 id="sistemare-file-sql-generato-da-ferret">Sistemare file sql generato da ferret</h3>
+<p>Il file sql generato da ferret contiene parecchi errori. Crea il file, correggi gli errori, e crea le tabelle per il database.</p>
+<h3 id="inserimento-dei-dati-desempio">Inserimento dei dati d’esempio</h3>
+<p>Crea un file con estensione .sql con i comandi per:</p>
+<ul>
+<li>creare le tabelle</li>
+<li>inserire un insieme di dati significativo.</li>
+</ul>
+<h3 id="nel-readme.md">Nel README.md</h3>
+<p>Inserisci le informazioni necessarie a comprendere ed eseguire le operazioni che hai svolto.</p>
+<h2 id="i-documenti-markdown-in-questa-directory">I documenti MarkDown in questa directory</h2>
+<p>Scritti in markdown, possono essere trasformati in pdf, html o odt con il comando <em>pandoc</em>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1">$ <span class="ex">pandoc</span> -o README.odt  README.md</a>
+<a class="sourceLine" id="cb1-2" title="2">$ <span class="ex">pandoc</span> -o README.html  README.md</a>
+<a class="sourceLine" id="cb1-3" title="3">$ <span class="ex">pandoc</span> -o README.pdf  README.md</a></code></pre></div>
+<p>Per l’esportazione in pdf è stato creato un semplice <em>makefile</em> e quindi è possibile dare semplicemente il comando:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1">$ <span class="fu">make</span></a></code></pre></div>
+<h2 id="todo">TODO</h2>
+<p>Segnalazioni migliorie al progetto</p>
+<h3 id="documento-master">Documento master</h3>
+<p>Creare un documento master che inglobi i file odt dando un aspetto omogeneo</p>
+<h3 id="presentazione">Presentazione</h3>
+<p>Partendo dal documento master inviare a presentazione o pensare ad un documento master che possa fungere da presentazione.</p>
+<p>Vedere se possibile creare la presentazione direttamente da linea di comando e inserire il comando nel makefile</p>
+<h3 id="altro">altro</h3>
+<p>….</p>
